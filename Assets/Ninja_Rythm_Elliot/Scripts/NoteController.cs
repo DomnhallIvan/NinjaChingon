@@ -15,7 +15,7 @@ public class NoteController : MonoBehaviour
   
     }
 
-    private void LateUpdate()
+    private void FalseAgain()
     {
         hasCollide = false;
     }
@@ -34,6 +34,7 @@ public class NoteController : MonoBehaviour
                 Efectos.Effects[0].Play();
 
                 Destroy(gameObject);
+                Invoke(nameof(FalseAgain), 0.5f);
             }
 
         }
@@ -47,6 +48,7 @@ public class NoteController : MonoBehaviour
                 Efectos.NoteStatus.text = "Good";
                 Efectos.Effects[1].Play();
                 Destroy(gameObject);
+                Invoke(nameof(FalseAgain), 0.5f);
             }
             
             
@@ -62,6 +64,7 @@ public class NoteController : MonoBehaviour
                 noteScoreManager.ChangeExScore(50);
                 Efectos.Effects[2].Play();
                 Destroy(gameObject);
+                Invoke(nameof(FalseAgain), 0.5f);
             }
             
             // gameController.Score();
@@ -76,6 +79,7 @@ public class NoteController : MonoBehaviour
                 noteScoreManager.ChangeExScore(25);
                 Efectos.Effects[3].Play();
                 Destroy(gameObject);
+                Invoke(nameof(FalseAgain), 0.5f);
             }
            
             // gameController.Score();
