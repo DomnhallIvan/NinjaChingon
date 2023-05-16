@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.055151764, g: 0.0049040494, b: 0.16803087, a: 1}
+  m_IndirectSpecularColor: {r: 0.055151723, g: 0.0049040387, b: 0.16803083, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Raibowspeed: 5
   invert: 0
-  randomize: 1
+  randomize: 0
 --- !u!1 &223426074
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,7 +563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 223426076}
   - component: {fileID: 223426075}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PostProcesing Volume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -821,7 +821,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538545401}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.16, y: 0, z: 90.02}
+  m_LocalPosition: {x: 1.16, y: 0, z: 64.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1032,8 +1032,8 @@ MonoBehaviour:
   marginOfError: 1
   inputDelayInMilliseconds: 2
   noteTime: 0.5
-  noteSpawnY: 0
-  noteTapY: -60
+  noteSpawnY: -20
+  noteTapY: -50
   midiFileName: Level1
 --- !u!1 &619904525
 GameObject:
@@ -2383,7 +2383,7 @@ MonoBehaviour:
   volumeTrigger: {fileID: 963194228}
   volumeLayer:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 8
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
   antialiasingMode: 0
@@ -2713,6 +2713,30 @@ PrefabInstance:
     - target: {fileID: 7276472830145277335, guid: 17c10f6921f983540a32f58a14d144a5, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276472831198344369, guid: 17c10f6921f983540a32f58a14d144a5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 33.80005
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276472831198344369, guid: 17c10f6921f983540a32f58a14d144a5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -361.29382
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276472831232352659, guid: 17c10f6921f983540a32f58a14d144a5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 33.80005
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276472831232352659, guid: 17c10f6921f983540a32f58a14d144a5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -162.29382
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276472831977913046, guid: 17c10f6921f983540a32f58a14d144a5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 33.30005
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276472831977913046, guid: 17c10f6921f983540a32f58a14d144a5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -251.29382
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c10f6921f983540a32f58a14d144a5, type: 3}
@@ -3349,7 +3373,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 218bb1e22f3b82d4a8a0f57b2e1ebc0a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 47da68aca6fe1bd47ab874eada072917, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3828,7 +3852,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1645423397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3841,7 +3865,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00ac147b58a2d24dae1786dc6c4b802, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoundButton: {fileID: 1075115717}
+  SoundButton: {fileID: 1424415836}
+  SoundButtonMiss: {fileID: 916843791}
 --- !u!4 &1645423398
 Transform:
   m_ObjectHideFlags: 0
@@ -3933,7 +3958,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Efectos: {fileID: 1240324366}
+  myAnimationController: {fileID: 919132149408198345}
   _healthController: {fileID: 1446690291}
+  _playS: {fileID: 0}
 --- !u!1 &1793930992
 GameObject:
   m_ObjectHideFlags: 0
@@ -4434,6 +4461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653346608242}
   - component: {fileID: 919132149408198345}
+  - component: {fileID: 919132149408198346}
   m_Layer: 0
   m_Name: playerRythm
   m_TagString: Untagged
@@ -4461,6 +4489,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &919132149408198346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149408198344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbc7c74e18e2a740aad943055418b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Animator: {fileID: 919132149408198345}
 --- !u!1 &919132149498037100
 GameObject:
   m_ObjectHideFlags: 0
@@ -4473,6 +4514,7 @@ GameObject:
   - component: {fileID: 3469287837147829875}
   - component: {fileID: 1711813855569994425}
   - component: {fileID: 3469287837147829876}
+  - component: {fileID: 3469287837147829877}
   m_Layer: 0
   m_Name: 1stBoss
   m_TagString: Untagged
@@ -4644,6 +4686,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3469287837147829877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149498037100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee0f2fe1e3d1f44d8fc4ceb2a93eccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AnimatorBoss: {fileID: 3469287837147829876}
 --- !u!1 &3655000510414183833
 GameObject:
   m_ObjectHideFlags: 0
