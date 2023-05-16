@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3524672020110244861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3524672020110244859}
+  - component: {fileID: 3524672020110244858}
+  m_Layer: 0
+  m_Name: ListofEffects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3524672020110244859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3524672020110244861}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3524672020110244858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3524672020110244861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3fcbcb2d15802e439c4d8af9d8b8faa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreText: {fileID: 0}
+  NoteStatus: {fileID: 0}
+  PlayerComboScore: 0
+  CoboImage: {fileID: 0}
+  ComboStoneImage:
+  - {fileID: 499503675, guid: 8c021b6e1bff98748a71b0ab376af234, type: 3}
+  - {fileID: -833999677, guid: 5e55c8c81f360ae4d88da8fddf91c6d3, type: 3}
+  - {fileID: 1382134948, guid: 5e55c8c81f360ae4d88da8fddf91c6d3, type: 3}
+  - {fileID: -488864824, guid: 5e55c8c81f360ae4d88da8fddf91c6d3, type: 3}
+  - {fileID: -516524992, guid: 5e55c8c81f360ae4d88da8fddf91c6d3, type: 3}
+  - {fileID: 1766545884, guid: 5e55c8c81f360ae4d88da8fddf91c6d3, type: 3}
+  - {fileID: 1369335426, guid: 5e55c8c81f360ae4d88da8fddf91c6d3, type: 3}
+  - {fileID: -1876971091, guid: 5e55c8c81f360ae4d88da8fddf91c6d3, type: 3}
+  Effects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

@@ -1,0 +1,1630 @@
+fileFormatVersion: 2
+guid: 8c021b6e1bff98748a71b0ab376af234
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nice Sheet3_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1468
+        width: 49
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c8a3348afff1849b3c16dcfd83c4c0
+      internalID: 993878990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1463
+        width: 52
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773db23dfed003240a2677c7c3181a11
+      internalID: -928373992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1470
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf46ba08a30aefb448f8c6b6ce46fb27
+      internalID: 222172909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1418
+        width: 45
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4d0ded7064c2e41ad7f527b1404941
+      internalID: 378196991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1275
+        width: 65
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceecd10ac5fb2f24d8ce2126ad616a05
+      internalID: 2011865747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1366
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbfe2032fadf4241a95f26bec322aad
+      internalID: -228031936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1273
+        width: 9
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a60dbcb927c90a4d8074e0054d3e9a7
+      internalID: -770181129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_7
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1275
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72371ab8fd49f3744ada359211dda584
+      internalID: 760710433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_8
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1274
+        width: 62
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d79b1c5eb469e1449982f49ff3628ef
+      internalID: 1019103149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1039
+        width: 68
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5398e1666faa9df4e9d25f703287203c
+      internalID: -2098286622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1129
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbee9b09136d36049a59fdd3117321b9
+      internalID: 658828422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_11
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1034
+        width: 52
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3edb411d36ffd41851502b250aa412
+      internalID: 1065729655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_12
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1083
+        width: 11
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef98900468e4824c9f3d26895969589
+      internalID: -206542343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1037
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a81fece0ad3e2241a623e98e7ecca1d
+      internalID: 2098762670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_14
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1001
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad40f6947607a2429e15c4955cb0792
+      internalID: -888538022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_15
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1035
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d72d0885801b17419992ca67841ddfa
+      internalID: 1513690588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_16
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1001
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987209d25a870734da218020d81ba214
+      internalID: -1243922412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_17
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1038
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e6b9191c864d448961204483e86b1f
+      internalID: 515368423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 815
+        width: 65
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cab70e909fd79b4eb8fed9d5d4e99f4
+      internalID: -282585971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 916
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939d7c6dd4442d14ca8ffe019ca7f73e
+      internalID: -5781603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_20
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 817
+        width: 13
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ff65a10bce5f240906dcf4ea646a0b
+      internalID: -69606192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_21
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 906
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f044c40a271e4429680a56544309ad
+      internalID: -2064940573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_22
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 813
+        width: 9
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2dde0f21e543143b13142ff6856e31
+      internalID: -1278824733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_23
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 815
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6ca06a458ea0c41ae5f594e427539d
+      internalID: -1989064221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_24
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 769
+        width: 39
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab7f27dd7d3c5d4f80e53c65b116cc3
+      internalID: 251146220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 816
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47d520001834e4459c1886411bf2cea
+      internalID: 1275172206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_26
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 815
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a43f7af1d153e4599614216f1884f9
+      internalID: -1105317599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_27
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 812
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986cf5ae041919d41ba77e6e1eda78d2
+      internalID: 255742049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_28
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 816
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7d8a9bbb91ee54bad37ddc914504e5
+      internalID: -529102667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_29
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 815
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48766b8361d2224ebc7f62a15713227
+      internalID: 2033729995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_30
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 584
+        width: 65
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233bd93a779b54f4ca49c0e7486fccf2
+      internalID: -1160922507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_31
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 685
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dd5152ac4ab244eb0023dfa4722494
+      internalID: 1090794044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_32
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 580
+        width: 52
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799013b89c7dabe45a1ef67fc0f80999
+      internalID: -1093772321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_33
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 675
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2cc90e9215e614b9e1496f468a2808
+      internalID: 2113165859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 675
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb14497e87efb2f4ebd6bddd0f8d763d
+      internalID: 2027181026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 582
+        width: 9
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc850c8f822a4e46a3ff6d9d4b57c26
+      internalID: -509448356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_36
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 584
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efaf1cb731311e443a92d4ecb50bcb22
+      internalID: 1415287153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 538
+        width: 39
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513a7a042705eac4eaa2dd1187145ee9
+      internalID: -1064250771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_38
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 585
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0aafc16d6c3e314a8632a55426ea7ca
+      internalID: 326823601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_39
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 584
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b2161cf758bd6478ccc48f24d79d2d
+      internalID: 686315952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_40
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 533
+        width: 45
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc4f3bf4ef17154bac33b8eb8b6280c
+      internalID: -1017808558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_41
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 388
+        width: 65
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4441608abe32e6e4892c62462fdf731d
+      internalID: 1151507197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_42
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 489
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf55bf54ce58c314097d5e0d5c8f6018
+      internalID: 871112373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_43
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 390
+        width: 13
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c980656b1d47c3046a2ff9804a05e96e
+      internalID: -1681989097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_44
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 479
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e4382f392199a4e8bbc5a275ebb53c
+      internalID: -435637969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_45
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 386
+        width: 9
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a0ba9521d81ed4b8da084140abd666
+      internalID: -395495231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_46
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 388
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540b0853b7929164c8bc709ab40f1c64
+      internalID: -1011027219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_47
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 342
+        width: 39
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dd1be0dc646844b992cb984c467679
+      internalID: 505931080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_48
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 389
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e12f6813d59d834aaa8d6761fee550e
+      internalID: -2000421784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_49
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 351
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ac743d9ab0e234588fd088306e3423
+      internalID: 657589595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_50
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 388
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befd8318345237d4e94da3f7ead6b317
+      internalID: -223725420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_51
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 388
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e508e38f7f7c8a64797cee031661b72a
+      internalID: 440642563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_52
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 389
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb7a7e5eee6ea1428dc72e0bed3f751
+      internalID: 1354058877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_53
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 337
+        width: 45
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26da8be0fad3c1498d2fe154f884b78
+      internalID: 1598420242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_54
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 351
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce8d2d5d8d63d14996bc6116ffcbd71
+      internalID: -676263787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_55
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 384
+        width: 107
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50e044be602ac2428d661874d5d64bf
+      internalID: 1814088935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_56
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 214
+        width: 67
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3104053d465b6fd4f83374c515e198cd
+      internalID: 343490761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_57
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 213
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70476cdf4cb7a5a49bb7257df9cd37e0
+      internalID: 690824509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_58
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 210
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a78524a94ff8d4e873db611a42ab0e
+      internalID: 724086117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_59
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 211
+        width: 56
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88630b8c82e6a84d824d9605ad6cbe1
+      internalID: -1372295917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_60
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 42
+        width: 487
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858713e2fca8f3e4492f8c808644e77e
+      internalID: 499503675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_61
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 58
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e8e47f74a60ff43bf03a7a9a04a855
+      internalID: -1496668451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_62
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 58
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ee1d8798f890249bdf0d5859dd29f6
+      internalID: 2139461939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_63
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 47
+        width: 37
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1e131a4f3f00843b0407d9c8c08ec2
+      internalID: 272278130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_64
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 58
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3906fe72a3c883149a7de4813fb71914
+      internalID: 1355052467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_65
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 55
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc816e2f6382b046ab1e1ccb00be590
+      internalID: -1312803800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_66
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 58
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcf7985a4f21da48bee97a765410c41
+      internalID: 1513282893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet3_67
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 52
+        width: 52
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4b343a8c341424880a3d988ba8f7ca
+      internalID: 206257639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 25b9929234f042941961ab4ed85633fd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Nice Sheet3_20: -69606192
+      Nice Sheet3_10: 658828422
+      Nice Sheet3_14: -888538022
+      Nice Sheet3_40: -1017808558
+      Nice Sheet3_56: 343490761
+      Nice Sheet3_43: -1681989097
+      Nice Sheet3_60: 499503675
+      Nice Sheet3_55: 1814088935
+      Nice Sheet3_66: 1513282893
+      Nice Sheet3_49: 657589595
+      Nice Sheet3_7: 760710433
+      Nice Sheet3_28: -529102667
+      Nice Sheet3_51: 440642563
+      Nice Sheet3_19: -5781603
+      Nice Sheet3_54: -676263787
+      Nice Sheet3_29: 2033729995
+      Nice Sheet3_53: 1598420242
+      Nice Sheet3_17: 515368423
+      Nice Sheet3_42: 871112373
+      Nice Sheet3_30: -1160922507
+      Nice Sheet3_11: 1065729655
+      Nice Sheet3_59: -1372295917
+      Nice Sheet3_38: 326823601
+      Nice Sheet3_31: 1090794044
+      Nice Sheet3_13: 2098762670
+      Nice Sheet3_32: -1093772321
+      Nice Sheet3_48: -2000421784
+      Nice Sheet3_3: 378196991
+      Nice Sheet3_39: 686315952
+      Nice Sheet3_37: -1064250771
+      Nice Sheet3_24: 251146220
+      Nice Sheet3_33: 2113165859
+      Nice Sheet3_5: -228031936
+      Nice Sheet3_1: -928373992
+      Nice Sheet3_36: 1415287153
+      Nice Sheet3_52: 1354058877
+      Nice Sheet3_41: 1151507197
+      Nice Sheet3_18: -282585971
+      Nice Sheet3_35: -509448356
+      Nice Sheet3_64: 1355052467
+      Nice Sheet3_21: -2064940573
+      Nice Sheet3_46: -1011027219
+      Nice Sheet3_57: 690824509
+      Nice Sheet3_8: 1019103149
+      Nice Sheet3_34: 2027181026
+      Nice Sheet3_23: -1989064221
+      Nice Sheet3_0: 993878990
+      Nice Sheet3_25: 1275172206
+      Nice Sheet3_27: 255742049
+      Nice Sheet3_62: 2139461939
+      Nice Sheet3_61: -1496668451
+      Nice Sheet3_9: -2098286622
+      Nice Sheet3_50: -223725420
+      Nice Sheet3_67: 206257639
+      Nice Sheet3_58: 724086117
+      Nice Sheet3_12: -206542343
+      Nice Sheet3_6: -770181129
+      Nice Sheet3_47: 505931080
+      Nice Sheet3_16: -1243922412
+      Nice Sheet3_4: 2011865747
+      Nice Sheet3_45: -395495231
+      Nice Sheet3_65: -1312803800
+      Nice Sheet3_2: 222172909
+      Nice Sheet3_15: 1513690588
+      Nice Sheet3_44: -435637969
+      Nice Sheet3_26: -1105317599
+      Nice Sheet3_22: -1278824733
+      Nice Sheet3_63: 272278130
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

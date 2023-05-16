@@ -1,0 +1,1454 @@
+fileFormatVersion: 2
+guid: 5e55c8c81f360ae4d88da8fddf91c6d3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1398
+        width: 49
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bad1b49c0e07d4991f364f5e672e99
+      internalID: -684340682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1393
+        width: 52
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbf123bdb1c7b241b8011dbe1b638ee
+      internalID: 771362680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1400
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b688ab6c49e508d43ae85bee6253b034
+      internalID: -543367350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1348
+        width: 205
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b78d80eb00c2d244b909ababbc71647
+      internalID: -833999677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1205
+        width: 65
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7470eef17ee064da68dd671ae36630
+      internalID: 1138405731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1296
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c200840b1dfd3eb4c8fc49fe114d8b92
+      internalID: -813874992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1203
+        width: 9
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac132bcee733bbc49aabacc69152dd84
+      internalID: 1990751992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_7
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1205
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f511fc23314465458b8864d1cb43296
+      internalID: 1537288790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1203
+        width: 200
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47272240d6af9a4fb225c1663f783ad
+      internalID: 1382134948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 969
+        width: 68
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148733e131f817b4e9e6d8a5a8667952
+      internalID: 545684850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1059
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7bbc96b56605942a2b99cd6e2371d9
+      internalID: 1832191381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_11
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 964
+        width: 52
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4751fcf31398bb847b43f8a040d35005
+      internalID: 1430258346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_12
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1013
+        width: 11
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0300c86aefd8b46ba2e6fd2aecd3c5
+      internalID: 1778184775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 967
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7643a3155b7c240ba220042ef90808
+      internalID: -770661536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_14
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 931
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e4bee87b0e0d54c9c99673a4d25c26
+      internalID: -2071605047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_15
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 965
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854aca431f213bc4f9015996550e9743
+      internalID: -539681609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_16
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 931
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afaf8d574d5c694ca8494f6bf5d9c54
+      internalID: 2122416542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_17
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 931
+        width: 568
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48472ee855ea0941be5fe8037cafa44
+      internalID: -488864824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 745
+        width: 65
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c115c74ad1964d744a55c1712c89f5be
+      internalID: -1561429369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 846
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9084e2c915e02dc4b8f6b0e8a16dfa59
+      internalID: -312601143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_20
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 747
+        width: 13
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf5239b3de453340b181b69b95ff8cb
+      internalID: 600063588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_21
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 836
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c03631de5746ad4eb49d364898d3499
+      internalID: -983538555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_22
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 743
+        width: 9
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6448a0d8692a9845b6d20652db841d3
+      internalID: 2111576004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_23
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 745
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae480d4e17bf9f4f9ffd369c5361100
+      internalID: -1373433588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_24
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 699
+        width: 39
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5928aae91dfc24180007c3d65d3c89
+      internalID: 879018680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 746
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2fd83a856d7cc4cb242d7d1dcf2096
+      internalID: -47529755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_26
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 745
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1d87da45cbffc47becaf7f1aa87f33
+      internalID: 2021311156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_27
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 742
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aff02e29cbadd74497077d199f7b636
+      internalID: -1414214369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_28
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 746
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f90547d147ad0e4abaacad3cf91a520
+      internalID: -1805860019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_29
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 699
+        width: 442
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399fecef756129244983b835461d84dd
+      internalID: -516524992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_30
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 514
+        width: 65
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6125dcd94d4e53c4b80c3ebc16716812
+      internalID: 339596244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_31
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 615
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a994764e2e79d9a4f82da955a5efa2a5
+      internalID: -407574231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_32
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 510
+        width: 52
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af590f081ee5e364fa31ae95aa45af86
+      internalID: 701961874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_33
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 605
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c53f2cf329d594389c10ae222b0838
+      internalID: 1054301007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 605
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a93764bfc1cbe459e4e94f5ffcd4a8
+      internalID: 2002087838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 512
+        width: 9
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725468228e011cb43b8b4c0407780f0b
+      internalID: 1635904004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_36
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 514
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0579e1366501efb44aede1bb98662862
+      internalID: 113766571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 468
+        width: 39
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d359ac4eb5349a64db762dbc5d30f7c8
+      internalID: 1220403566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_38
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 515
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0943b6d80e8e2bb45817a7c219c6c25b
+      internalID: -2064480288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_39
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 514
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810620756b86f52429c880f8806fdf70
+      internalID: 1883055452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_40
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 463
+        width: 372
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbc483d10b3950478516836b65c7ce4
+      internalID: 1766545884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_41
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 274
+        width: 65
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a7beb06085601448ac096b1a1a3f3a
+      internalID: -977976224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_42
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 375
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232fc500f62a29945b1c2c2c9a40f22d
+      internalID: 1061270061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_43
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 276
+        width: 13
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60576255f35ac34cb76492eb5e80e76
+      internalID: -1781375452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_44
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 365
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bce2531eb74ab46aee9b497c272645
+      internalID: 851782816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_45
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 272
+        width: 9
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81725ba7441c94a468415b6646cb012c
+      internalID: -2012274138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_46
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 274
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0e642d2e02f0e4fb1bdb49f8cad023
+      internalID: 159495785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_47
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 228
+        width: 39
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2507d3f2693f364994e0d8dd2d7a506
+      internalID: -1840560770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_48
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 275
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5c0822edec9bf4ab31ad7a85a80c76
+      internalID: 81291057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_49
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 237
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acdc13917e22484b8f1861d58d376d7
+      internalID: 511411539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_50
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 274
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815ff3b9fcc264a4f843eeb1ddab70bd
+      internalID: 1941337961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_51
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 274
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46743a0fff87cf4cb96ce5a9e1e119c
+      internalID: -361926520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_52
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 275
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9910cabba1cf144ebb8d09e575d72f9
+      internalID: 1046122587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_53
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 223
+        width: 45
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f350ba7a006d1499baecca34dc7c19
+      internalID: -622180015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_54
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 237
+        width: 60
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962cc091b56286f48b00099ca98e8aa6
+      internalID: 1751685804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_55
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 224
+        width: 664
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05a7a00da0fc134b84d42e2c72c74bb
+      internalID: 1369335426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_56
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 58
+        width: 67
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ac21d5c011d284393049de0d464719
+      internalID: -651354247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_57
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 57
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a98cbf8fedf50468466c4d18fa463a
+      internalID: -430468850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_58
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 54
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80473a2d308083478c36ef3e6bd3aae
+      internalID: 44980935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Bruh 1_59
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 54
+        width: 236
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45843e273402914aa68afa1c20d72f3
+      internalID: -1876971091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 90714afa73503734bb4a8544096a595f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Nice Sheet Bruh 1_51: -361926520
+      Nice Sheet Bruh 1_19: -312601143
+      Nice Sheet Bruh 1_25: -47529755
+      Nice Sheet Bruh 1_29: -516524992
+      Nice Sheet Bruh 1_41: -977976224
+      Nice Sheet Bruh 1_12: 1778184775
+      Nice Sheet Bruh 1_36: 113766571
+      Nice Sheet Bruh 1_6: 1990751992
+      Nice Sheet Bruh 1_46: 159495785
+      Nice Sheet Bruh 1_44: 851782816
+      Nice Sheet Bruh 1_7: 1537288790
+      Nice Sheet Bruh 1_45: -2012274138
+      Nice Sheet Bruh 1_47: -1840560770
+      Nice Sheet Bruh 1_58: 44980935
+      Nice Sheet Bruh 1_11: 1430258346
+      Nice Sheet Bruh 1_5: -813874992
+      Nice Sheet Bruh 1_38: -2064480288
+      Nice Sheet Bruh 1_8: 1382134948
+      Nice Sheet Bruh 1_32: 701961874
+      Nice Sheet Bruh 1_21: -983538555
+      Nice Sheet Bruh 1_26: 2021311156
+      Nice Sheet Bruh 1_15: -539681609
+      Nice Sheet Bruh 1_24: 879018680
+      Nice Sheet Bruh 1_39: 1883055452
+      Nice Sheet Bruh 1_2: -543367350
+      Nice Sheet Bruh 1_10: 1832191381
+      Nice Sheet Bruh 1_16: 2122416542
+      Nice Sheet Bruh 1_50: 1941337961
+      Nice Sheet Bruh 1_28: -1805860019
+      Nice Sheet Bruh 1_33: 1054301007
+      Nice Sheet Bruh 1_20: 600063588
+      Nice Sheet Bruh 1_48: 81291057
+      Nice Sheet Bruh 1_31: -407574231
+      Nice Sheet Bruh 1_52: 1046122587
+      Nice Sheet Bruh 1_49: 511411539
+      Nice Sheet Bruh 1_53: -622180015
+      Nice Sheet Bruh 1_23: -1373433588
+      Nice Sheet Bruh 1_34: 2002087838
+      Nice Sheet Bruh 1_42: 1061270061
+      Nice Sheet Bruh 1_40: 1766545884
+      Nice Sheet Bruh 1_22: 2111576004
+      Nice Sheet Bruh 1_57: -430468850
+      Nice Sheet Bruh 1_17: -488864824
+      Nice Sheet Bruh 1_43: -1781375452
+      Nice Sheet Bruh 1_30: 339596244
+      Nice Sheet Bruh 1_27: -1414214369
+      Nice Sheet Bruh 1_14: -2071605047
+      Nice Sheet Bruh 1_18: -1561429369
+      Nice Sheet Bruh 1_59: -1876971091
+      Nice Sheet Bruh 1_54: 1751685804
+      Nice Sheet Bruh 1_3: -833999677
+      Nice Sheet Bruh 1_9: 545684850
+      Nice Sheet Bruh 1_37: 1220403566
+      Nice Sheet Bruh 1_55: 1369335426
+      Nice Sheet Bruh 1_56: -651354247
+      Nice Sheet Bruh 1_0: -684340682
+      Nice Sheet Bruh 1_13: -770661536
+      Nice Sheet Bruh 1_4: 1138405731
+      Nice Sheet Bruh 1_35: 1635904004
+      Nice Sheet Bruh 1_1: 771362680
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

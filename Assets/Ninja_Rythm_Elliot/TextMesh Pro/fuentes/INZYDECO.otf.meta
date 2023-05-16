@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: eb3900c09b18eb4429eddb0f6a482612
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - INZYDECO
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 102f62f3377bfb04689aee6a39fe4180, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
