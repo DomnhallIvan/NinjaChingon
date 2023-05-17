@@ -15,4 +15,10 @@ public class BossAnim : MonoBehaviour
     {
         m_AnimatorBoss.Play("ChangeMaterialBoss");
     }
+
+    public void Die()
+    {
+        m_AnimatorBoss.Play("BossDie");
+
+    }
 }
