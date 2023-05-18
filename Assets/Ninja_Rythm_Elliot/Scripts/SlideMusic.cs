@@ -12,6 +12,8 @@ public class SlideMusic : MonoBehaviour
     [SerializeField] private BossAnim _BossAnim;
     public List_Of_Effects Efectos;
 
+    private bool IsFinished = false;
+
 
     // Use this for initialization
     void Start()
@@ -35,17 +37,35 @@ public class SlideMusic : MonoBehaviour
         Finish();
     }
 
-    public void Finish() 
+    public void Finish()
     {
-        if (audioSlider.value >= _timeanimationDie) 
-        {
-            _BossAnim.Die();
-        }
+        
+            if (audioSlider.value >= _timeanimationDie)
+            {
+                _BossAnim.Die();
+            }
 
-        if (audioSlider.value == _timeanimationExplosion)
-        {
+            if (audioSlider.value  < _timeanimationExplosion)
+            {
+                //IsFinished = true;
+            
+                
+                //Explosion.PlayOneShot(1);
+                //IsFinished = false;
+               // }
+                
+            }
+            else
+                
+            if(!IsFinished)
+            {
             Efectos.Effects[4].Play();
             Explosion.Play();
-        }
+            IsFinished = true;
+            }
+
+
+
+
     }
 }
