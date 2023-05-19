@@ -11,6 +11,9 @@ public class SlideMusic : MonoBehaviour
     public float _timeanimationExplosion;
     [SerializeField] private BossAnim _BossAnim;
     public List_Of_Effects Efectos;
+    public GameObject canvasWinner;
+    public GameObject canvasScore;
+
 
     private bool IsFinished = false;
 
@@ -24,7 +27,7 @@ public class SlideMusic : MonoBehaviour
         GetComponent<AudioSource>().Play();
         _BossAnim = GameObject.FindObjectOfType<BossAnim>();
         Efectos = GameObject.FindObjectOfType<List_Of_Effects>();
-        
+
 
 
     }
@@ -39,33 +42,46 @@ public class SlideMusic : MonoBehaviour
 
     public void Finish()
     {
-        
-            if (audioSlider.value >= _timeanimationDie)
-            {
-                _BossAnim.Die();
-            }
 
-            if (audioSlider.value  < _timeanimationExplosion)
+        if (audioSlider.value >= _timeanimationDie)
+        {
+            _BossAnim.Die();
+        }
+
+        if (audioSlider.value < _timeanimationExplosion)
+        {
+            //IsFinished = true;
+
+
+            //Explosion.PlayOneShot(1);
+            //IsFinished = false;
+            // }
+
+        }
+        else
+        {
+            if (!IsFinished)
             {
-                //IsFinished = true;
-            
-                
-                //Explosion.PlayOneShot(1);
-                //IsFinished = false;
-               // }
+                Efectos.Effects[4].Play();
+                Explosion.Play();
                 
             }
-            else
-                
-            if(!IsFinished)
-            {
-            Efectos.Effects[4].Play();
-            Explosion.Play();
             IsFinished = true;
-            }
+        }
 
+       
 
+        if (audioSlider.value >= 178)
+        {
+            canvasWinner.SetActive(true);
+            canvasScore.SetActive(false);
+        }
 
-
+        
     }
+
+
+
+
+
 }
