@@ -44,7 +44,7 @@ public class NoteController : MonoBehaviour
             {
                 hasCollideEX = true;
                 Efectos.DeluxyCombo(1);
-                noteScoreManager.ChangeExScore(75);
+                noteScoreManager.ChangeExScore(100);
                 Efectos.NoteStatus.text = "Good";
                 Efectos.Effects[1].Play();
                 Destroy(gameObject);
