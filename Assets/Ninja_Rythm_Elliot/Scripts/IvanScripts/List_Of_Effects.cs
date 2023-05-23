@@ -24,8 +24,6 @@ public class List_Of_Effects : MonoBehaviour
     private bool hasOkay4 = false;
     private bool hasOkay5 = false;
     private bool hasOkay6 = false;
-    private bool hasOkay7 = false;
-
 
 
     private void Start()
@@ -128,11 +126,21 @@ public class List_Of_Effects : MonoBehaviour
             LeanTween.scale(TextoCombo[0].gameObject, new Vector3(1.5f, 1.5f, 1.5f), 1.5f).setDelay(1.5f).setEase(LeanTweenType.easeOutElastic);
             LeanTween.scale(TextoCombo[0].gameObject, new Vector3(1f, 1f, 1f), 2f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
             LeanTween.scale(TextoCombo[0].gameObject, new Vector3(0f, 0f, 0f), 3f).setDelay(2.5f).setEase(LeanTweenType.easeInOutCubic);
+            Invoke(nameof(FalseAgain), 1f);
         }
-      
+    }
+
+    private void FalseAgain()
+    {
+        hasOkay = false;
+        hasOkay1 = false;
+        hasOkay2 = false;
+        hasOkay3 = false;
+        hasOkay4 = false;
+        hasOkay5 = false;
+        hasOkay6 = false;
 
 
     }
 
-   
 }
