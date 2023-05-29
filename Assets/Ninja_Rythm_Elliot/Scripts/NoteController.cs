@@ -37,7 +37,7 @@ public class NoteController : MonoBehaviour
                 Efectos.Effects[0].Play();
 
                 Destroy(gameObject);
-                Invoke(nameof(FalseAgain), 0.01f);
+                Invoke(nameof(FalseAgain), 1f);
             }
 
         }
@@ -54,7 +54,7 @@ public class NoteController : MonoBehaviour
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(0f, 0f, 0f), 1f).setDelay(1f).setEase(LeanTweenType.easeInOutCubic);
                 Efectos.Effects[1].Play();
                 Destroy(gameObject);
-                Invoke(nameof(FalseAgain), 0.1f);
+                Invoke(nameof(FalseAgain), 1f);
             }
             
             
@@ -73,7 +73,7 @@ public class NoteController : MonoBehaviour
                 noteScoreManager.ChangeExScore(50);
                 Efectos.Effects[2].Play();
                 Destroy(gameObject);
-                Invoke(nameof(FalseAgain), 0.1f);
+                Invoke(nameof(FalseAgain), 1f);
             }
             
             // gameController.Score();

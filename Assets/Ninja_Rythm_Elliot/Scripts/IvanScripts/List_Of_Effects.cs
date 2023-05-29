@@ -44,6 +44,7 @@ public class List_Of_Effects : MonoBehaviour
             //Convo.text = TextoCombo[6].text;
             if (hasOkay5 == false)
             {
+                TextoCombo[5].color = new Color(0,219,255);
                 hasOkay5 = true;
                 LeanTween.scale(TextoCombo[6].gameObject, new Vector3(1.5f, 1.5f, 1.5f), 2f).setDelay(1.5f).setEase(LeanTweenType.easeOutElastic);
                 LeanTween.scale(TextoCombo[6].gameObject, new Vector3(1f, 1f, 1f), 2f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
@@ -56,6 +57,7 @@ public class List_Of_Effects : MonoBehaviour
             // Convo.text = TextoCombo[5].text;
             if (hasOkay4 == false)
             {
+                TextoCombo[5].color = new Color(255,0,228);
                 hasOkay4 = true;
                 LeanTween.scale(TextoCombo[5].gameObject, new Vector3(1.5f, 1.5f, 1.5f), 2f).setDelay(1.5f).setEase(LeanTweenType.easeOutElastic);
                 LeanTween.scale(TextoCombo[5].gameObject, new Vector3(1f, 1f, 1f), 2f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
@@ -68,6 +70,7 @@ public class List_Of_Effects : MonoBehaviour
             // Convo.text = TextoCombo[4].text;
             if (hasOkay3 == false)
             {
+                TextoCombo[4].color = Color.green;
                 hasOkay3 = true;
                 LeanTween.scale(TextoCombo[4].gameObject, new Vector3(1.5f, 1.5f, 1.5f), 2f).setDelay(1.5f).setEase(LeanTweenType.easeOutElastic);
                 LeanTween.scale(TextoCombo[4].gameObject, new Vector3(1f, 1f, 1f), 2f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
@@ -75,11 +78,12 @@ public class List_Of_Effects : MonoBehaviour
             }
             
         }
-        else if (PlayerComboScore >= 20)
+        else if (PlayerComboScore >= 25)
         {
             //Convo.text = TextoCombo[3].text;
             if(hasOkay2==false)
             {
+                TextoCombo[3].color = Color.blue;
                 hasOkay2 = true;
                 LeanTween.scale(TextoCombo[3].gameObject, new Vector3(1.5f, 1.5f, 1.5f), 2f).setDelay(1.5f).setEase(LeanTweenType.easeOutElastic);
                 LeanTween.scale(TextoCombo[3].gameObject, new Vector3(1f, 1f, 1f), 2f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
@@ -93,6 +97,7 @@ public class List_Of_Effects : MonoBehaviour
             if(hasOkay1==false)
             {
                 hasOkay1 = true;
+                TextoCombo[2].color = new Color(255, 156,0);
                 LeanTween.scale(TextoCombo[2].gameObject, new Vector3(1.5f, 1.5f, 1.5f), 2f).setDelay(1.5f).setEase(LeanTweenType.easeOutElastic);
                 LeanTween.scale(TextoCombo[2].gameObject, new Vector3(1f, 1f, 1f), 2f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
                 LeanTween.scale(TextoCombo[2].gameObject, new Vector3(0f, 0f, 0f), 3f).setDelay(2.5f).setEase(LeanTweenType.easeInOutCubic);
@@ -122,10 +127,11 @@ public class List_Of_Effects : MonoBehaviour
         //Convo.text = TextoCombo[0].text;
         if (hasOkay6 == false)
         {
-            hasOkay6 = true;
+            AllTrue();
             LeanTween.scale(TextoCombo[0].gameObject, new Vector3(1.5f, 1.5f, 1.5f), 1.5f).setDelay(1.5f).setEase(LeanTweenType.easeOutElastic);
             LeanTween.scale(TextoCombo[0].gameObject, new Vector3(1f, 1f, 1f), 2f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
             LeanTween.scale(TextoCombo[0].gameObject, new Vector3(0f, 0f, 0f), 3f).setDelay(2.5f).setEase(LeanTweenType.easeInOutCubic);
+            TextoCombo[0].color = Color.red;
             Invoke(nameof(FalseAgain), 1f);
         }
     }
@@ -139,8 +145,17 @@ public class List_Of_Effects : MonoBehaviour
         hasOkay4 = false;
         hasOkay5 = false;
         hasOkay6 = false;
+    }
 
-
+    private void AllTrue()
+    {
+        hasOkay = true;
+        hasOkay1 = true;
+        hasOkay2 = true;
+        hasOkay3 = true;
+        hasOkay4 = true;
+        hasOkay5 = true;
+        hasOkay6 = true;
     }
 
 }
