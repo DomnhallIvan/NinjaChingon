@@ -40,7 +40,7 @@ public class HealthController : MonoBehaviour
 
     public void GameOver()
     {
-        if(playerHealth <= 0)
+        if(playerHealth == 0)
         {
             //Time.timeScale = 0;
             _audio.Pause();
