@@ -2466,7 +2466,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863109917}
   m_LocalRotation: {x: -0.00000008940697, y: 0.000000018499906, z: 0.00000047672552, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0108}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19280,8 +19280,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSlider: {fileID: 470693349}
   Explosion: {fileID: 748351700}
-  _timeanimationDie: 0
-  _timeanimationExplosion: 0
+  _timeanimationDie: 158
+  _timeanimationExplosion: 175
   _BossAnim: {fileID: 2401320189388788682}
   Efectos: {fileID: 1240324366}
   canvasWinner: {fileID: 8420636511615703666}
