@@ -14192,6 +14192,11 @@ Transform:
   m_Father: {fileID: 538545402}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1835052517 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5594548507477090202, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+  m_PrefabInstance: {fileID: 751752008}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1841974674
 GameObject:
   m_ObjectHideFlags: 0
@@ -19274,6 +19279,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSlider: {fileID: 470693349}
+  Explosion: {fileID: 748351700}
+  _timeanimationDie: 0
+  _timeanimationExplosion: 0
+  _BossAnim: {fileID: 2401320189388788682}
+  Efectos: {fileID: 1240324366}
+  canvasWinner: {fileID: 8420636511615703666}
+  canvasScore: {fileID: 1835052517}
 --- !u!114 &2088564733 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2979392034723709959, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
