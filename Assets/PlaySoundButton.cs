@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class PlaySoundButton : MonoBehaviour
 {
-    public AudioSource SoundButton;
+    public AudioSource SoundKick;
+    public AudioSource SoundMiss;
     // Start is called before the first frame update
 
     public void PLaythissound()
     {
-        SoundButton.Play();
+        SoundKick.Play();
     }
+
+    public void PLaySoundMiss()
+    {
+        SoundKick.Play();
+    }
+
 }

@@ -5,6 +5,9 @@ public class NoteController : MonoBehaviour
     //private GameController gameController;
     public NoteScoreManager noteScoreManager;
     public List_Of_Effects Efectos;
+    public PlayerAnim myAnimationController;
+    public BossAnim myAnimationControllerBoss;
+    public PlaySoundButton _playS;
 
     private bool hasCollideEX = false;
 
@@ -12,7 +15,10 @@ public class NoteController : MonoBehaviour
     {
         noteScoreManager = GameObject.FindObjectOfType<NoteScoreManager>();
         Efectos = GameObject.FindObjectOfType<List_Of_Effects>();
-  
+        myAnimationController = GameObject.FindObjectOfType<PlayerAnim>();
+        myAnimationControllerBoss = GameObject.FindObjectOfType<BossAnim>();
+        _playS = GameObject.FindObjectOfType<PlaySoundButton>();
+
     }
 
     private void FalseAgain()
@@ -36,6 +42,10 @@ public class NoteController : MonoBehaviour
                 noteScoreManager.ChangeExScore(100);
                 Efectos.Effects[0].Play();
 
+                myAnimationController.Attack();
+                myAnimationControllerBoss.Material();
+                _playS.PLaythissound();
+
                 Destroy(gameObject);
                 Invoke(nameof(FalseAgain), 1f);
             }
@@ -53,6 +63,11 @@ public class NoteController : MonoBehaviour
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(1f, 1f, 1f), 0.5f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(0f, 0f, 0f), 1f).setDelay(1f).setEase(LeanTweenType.easeInOutCubic);
                 Efectos.Effects[1].Play();
+
+                myAnimationController.Attack();
+                myAnimationControllerBoss.Material();
+                _playS.PLaythissound();
+
                 Destroy(gameObject);
                 Invoke(nameof(FalseAgain), 1f);
             }
@@ -72,6 +87,12 @@ public class NoteController : MonoBehaviour
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(0f, 0f, 0f), 0.7f).setDelay(1f).setEase(LeanTweenType.easeInOutCubic);
                 noteScoreManager.ChangeExScore(50);
                 Efectos.Effects[2].Play();
+
+                myAnimationController.Attack();
+                myAnimationControllerBoss.Material();
+                _playS.PLaythissound();
+
+
                 Destroy(gameObject);
                 Invoke(nameof(FalseAgain), 1f);
             }

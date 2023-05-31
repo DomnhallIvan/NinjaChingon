@@ -14037,7 +14037,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00ac147b58a2d24dae1786dc6c4b802, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoundButton: {fileID: 1424415836}
+  SoundKick: {fileID: 1424415836}
+  SoundMiss: {fileID: 916843791}
 --- !u!4 &1645423398
 Transform:
   m_ObjectHideFlags: 0
@@ -14141,6 +14142,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Efectos: {fileID: 1240324366}
   _healthController: {fileID: 1446690291}
+  myAnimationController: {fileID: 919132149408198345}
+  _playS: {fileID: 0}
 --- !u!1 &1793930992
 GameObject:
   m_ObjectHideFlags: 0
