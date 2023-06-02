@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 40212991}
   m_Layer: 0
   m_Name: Playermhe
-  m_TagString: PlayerMeh
+  m_TagString: PlayerG
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -852,7 +852,7 @@ GameObject:
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &354630386
 Transform:
   m_ObjectHideFlags: 0
@@ -1008,86 +1008,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &485400580
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 485400581}
-  - component: {fileID: 485400583}
-  - component: {fileID: 485400582}
-  m_Layer: 5
-  m_Name: ComboScore (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &485400581
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 485400580}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1346097773}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 117.5, y: -717}
-  m_SizeDelta: {x: 308, y: 127}
-  m_Pivot: {x: 0, y: 1}
---- !u!114 &485400582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 485400580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: f2b8cb95329074946b3b6022c7e89cae, type: 3}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 70
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: X
---- !u!222 &485400583
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 485400580}
-  m_CullTransparentMesh: 1
 --- !u!1 &538545401
 GameObject:
   m_ObjectHideFlags: 0
@@ -2163,6 +2083,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1421589861}
     m_Modifications:
+    - target: {fileID: 485400581, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2979392034175306835, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2281,6 +2205,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+--- !u!114 &751752009 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 485400582, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+  m_PrefabInstance: {fileID: 751752008}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &853042550
 GameObject:
   m_ObjectHideFlags: 0
@@ -2297,7 +2232,7 @@ GameObject:
   - component: {fileID: 853042552}
   m_Layer: 0
   m_Name: PlayerG
-  m_TagString: PlayerG
+  m_TagString: PlayerEX
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13179,10 +13114,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3fcbcb2d15802e439c4d8af9d8b8faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 347843919}
+  ConvoText: {fileID: 751752009}
   NoteStatus: {fileID: 347843919}
   PlayerComboScore: 0
-  Convo: {fileID: 653407488}
   TextoCombo:
   - {fileID: 723368140}
   - {fileID: 919775134}

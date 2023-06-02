@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class List_Of_Effects : MonoBehaviour
 {
     
-    public Text ScoreText;
+    public Text ConvoText;
     public Text NoteStatus;
     public int PlayerComboScore;
 
     //public Image CoboImage;
     //public  List<string> TextoCombo= new List<string>();
-    public Text Convo;
+    //public Text Convo;
     public Text[] TextoCombo;
 
     public ParticleSystem[] Effects;
@@ -38,7 +38,7 @@ public class List_Of_Effects : MonoBehaviour
     public void DeluxyCombo(int Combo)
     {
         PlayerComboScore += Combo;
-        ScoreText.text = ("X " + PlayerComboScore);
+        ConvoText.text = ("X " + PlayerComboScore);
         if (PlayerComboScore>=200)
         {
             //Convo.text = TextoCombo[6].text;
@@ -122,7 +122,7 @@ public class List_Of_Effects : MonoBehaviour
     public void Bruh()
     {
         PlayerComboScore = 0;
-        ScoreText.text = ("X " + PlayerComboScore);
+        ConvoText.text = ("X " + PlayerComboScore);
 
         //Convo.text = TextoCombo[0].text;
         if (hasOkay6 == false)
