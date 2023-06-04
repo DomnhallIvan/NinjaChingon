@@ -15,13 +15,13 @@ EditorUserSettings:
       value: 06550757070c5c035456547112775b414f164e282f7820657d2d4864e7e4313b
       flags: 0
     RecentlyUsedSceneGuid-3:
-      value: 0603525407055f0f0b5a097444200d4444161a7d2a2c7e627e7b456ae0e23061
-      flags: 0
-    RecentlyUsedSceneGuid-4:
       value: 07000c0755560d0e5a5f097a41730744424e4d29287c74317d7d1f60b5b1633a
       flags: 0
-    RecentlyUsedSceneGuid-5:
+    RecentlyUsedSceneGuid-4:
       value: 505004530750590a090d5d7644740744134e4a737b7977607e704a31b3b2313b
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 0603525407055f0f0b5a097444200d4444161a7d2a2c7e627e7b456ae0e23061
       flags: 0
     UnityRemoteDevice:
       value: 225f4d46245b0d4902070862342649191512
