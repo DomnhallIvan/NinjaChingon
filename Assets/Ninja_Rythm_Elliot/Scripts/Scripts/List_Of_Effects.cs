@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class List_Of_Effects : MonoBehaviour
 {
     
-    public Text ConvoText;
+    public TMP_Text ConvoText;
     public Text NoteStatus;
     public int PlayerComboScore;
 

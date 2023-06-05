@@ -45,7 +45,7 @@ public class HealthController : MonoBehaviour
             //Time.timeScale = 0;
             _audio.Pause();
             canvasLose.SetActive(true);
-            //canvasScore.SetActive(false);
+            canvasScore.SetActive(false);
             songmanager.SetActive(false);
         }
     }
@@ -55,7 +55,7 @@ public class HealthController : MonoBehaviour
         playerHealth = 3;
         _audio.Play();
         canvasLose.SetActive(false);
-        //canvasScore.SetActive(true);
+        canvasScore.SetActive(true);
         songmanager.SetActive(true);
 
     }

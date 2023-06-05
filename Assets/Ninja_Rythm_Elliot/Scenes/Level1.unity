@@ -913,17 +913,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &485400582 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 485400582, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
-  m_PrefabInstance: {fileID: 751752008}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &538545401
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,7 +937,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538545401}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.16, y: 0, z: 64.5}
+  m_LocalPosition: {x: 1.16, y: 0.135, z: 64.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1859,11 +1848,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &727884050 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5594548506408293279, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
-  m_PrefabInstance: {fileID: 751752008}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &748351698
 GameObject:
   m_ObjectHideFlags: 0
@@ -2007,10 +1991,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2979392035070824030, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 17cb35acef0294449908967edc19bbcd, type: 3}
     - target: {fileID: 2979392035070824031, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2022,22 +2002,6 @@ PrefabInstance:
     - target: {fileID: 2979392035070824031, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2979392035070824031, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 70
-      objectReference: {fileID: 0}
-    - target: {fileID: 2979392035070824031, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2979392035070824031, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 5.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 2979392035882240093, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5594548507477090182, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
       propertyPath: m_Pivot.x
@@ -13027,7 +12991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3fcbcb2d15802e439c4d8af9d8b8faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ConvoText: {fileID: 485400582}
+  ConvoText: {fileID: 2145581434}
   NoteStatus: {fileID: 347843919}
   PlayerComboScore: 0
   TextoCombo:
@@ -13766,7 +13730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: 3
   canvasLose: {fileID: 671205123}
-  canvasScore: {fileID: 727884050}
+  canvasScore: {fileID: 1835052517}
   songmanager: {fileID: 615018466}
   _audio: {fileID: 1986609179}
   hearts:
@@ -19391,6 +19355,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100095318}
   m_CullTransparentMesh: 1
+--- !u!114 &2145581434 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6736548634155950316, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+  m_PrefabInstance: {fileID: 751752008}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &484071765466605314
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20649,7 +20624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b401692b58bc344aec2b34ee998237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 8420636509940629200}
+  ScoreText: {fileID: 0}
   PlayerScore: 0
 --- !u!222 &8420636509940629203
 CanvasRenderer:
@@ -21766,7 +21741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76b401692b58bc344aec2b34ee998237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreText: {fileID: 8420636509940629200}
+  ScoreText: {fileID: 0}
   PlayerScore: 0
 --- !u!114 &8420636511615703676
 MonoBehaviour:
