@@ -113,6 +113,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteScoreManager: {fileID: 0}
   Efectos: {fileID: 0}
+  myAnimationController: {fileID: 0}
+  myAnimationControllerBoss: {fileID: 0}
+  _playS: {fileID: 0}
 --- !u!114 &7124900589595391855
 MonoBehaviour:
   m_ObjectHideFlags: 0
