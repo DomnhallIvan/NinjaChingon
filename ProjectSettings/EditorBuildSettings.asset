@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Ninja_Rythm_Elliot/Scenes/Level2.unity
     guid: eff290ea0c0d3e24dacbc0d3eda930d9
+  - enabled: 1
+    path: Assets/Ninja_Rythm_Elliot/Scenes/Level3.unity
+    guid: 95658518017d0884ea03606ec5b5f930
   m_configObjects: {}
