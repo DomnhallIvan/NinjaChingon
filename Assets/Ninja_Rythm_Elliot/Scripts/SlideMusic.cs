@@ -13,6 +13,7 @@ public class SlideMusic : MonoBehaviour
     public List_Of_Effects Efectos;
     public GameObject canvasWinner;
     public GameObject canvasScore;
+    public float Duration;
 
 
     private bool IsFinished = false;
@@ -71,7 +72,7 @@ public class SlideMusic : MonoBehaviour
 
 
 
-        if (audioSlider.value >= 178)
+        if (audioSlider.value >= Duration)
         {
             canvasWinner.SetActive(true);
             canvasScore.SetActive(false);

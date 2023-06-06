@@ -19910,6 +19910,7 @@ MonoBehaviour:
   Efectos: {fileID: 1240324366}
   canvasWinner: {fileID: 1524316583}
   canvasScore: {fileID: 1835052517}
+  Duration: 178
 --- !u!114 &2088564733 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2979392034723709959, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
