@@ -1715,7 +1715,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3505137144973382507, guid: 261bf204a0b916249bafd6e77c9eb80c, type: 3}
       propertyPath: volume
-      value: 0.1
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3505137144973382507, guid: 261bf204a0b916249bafd6e77c9eb80c, type: 3}
+      propertyPath: updateSensitivity
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 261bf204a0b916249bafd6e77c9eb80c, type: 3}
