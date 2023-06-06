@@ -7,7 +7,8 @@ public class VisualizerScript : MonoBehaviour
 {
     public float minHeight = 15.0f;
     public float maxHeight = 425.0f;
-    public float updateSentivity = 10.0f;
+    public float updateSensitivity = 10.0f;
+    public float volume = 1.0f; // Nuevo parámetro de volumen
     [Space(15)]
     public AudioClip audioClip;
     public bool loop = true;
@@ -36,13 +37,16 @@ public class VisualizerScript : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        // Ajustar el volumen del audio
+        audioSource.volume = volume;
+
         float[] spectrumData = audioSource.GetSpectrumData(visualizerSimples, 0, FFTWindow.Rectangular);
 
         for (int i = 0; i < visualizerObjects.Length; i++)
         {
             Vector2 newSize = visualizerObjects[i].GetComponent<RectTransform>().rect.size;
 
-            newSize.y = Mathf.Clamp(Mathf.Lerp(newSize.y, minHeight + (spectrumData[i] * (maxHeight - minHeight) * 30.0f), updateSentivity * 1f), minHeight, maxHeight);
+            newSize.y = Mathf.Clamp(Mathf.Lerp(newSize.y, minHeight + (spectrumData[i] * (maxHeight - minHeight) * 30.0f), updateSensitivity * 1f), minHeight, maxHeight);
             visualizerObjects[i].GetComponent<RectTransform>().sizeDelta = newSize;
 
             int colorGroupIndex = GetColorGroupIndex(i);
