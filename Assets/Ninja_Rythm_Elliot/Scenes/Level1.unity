@@ -1893,6 +1893,54 @@ PrefabInstance:
       propertyPath: m_Name
       value: Transform Tween
       objectReference: {fileID: 0}
+    - target: {fileID: 4291301180702869448, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.10959261
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291301180702869448, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.9015847
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291301180702869448, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.06759259
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291301180702869448, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.8845208
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291301180702869448, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 155
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291301180702869448, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291301180702869448, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291301180702869448, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -244
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010760222615267489, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_margin.w
+      value: 39.082123
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010760222615267489, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_margin.x
+      value: 70.53717
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010760222615267489, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_margin.y
+      value: 16.138247
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010760222615267489, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_margin.z
+      value: 87.302795
+      objectReference: {fileID: 0}
     - target: {fileID: 5594548507477090182, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
       propertyPath: m_Pivot.x
       value: 0
