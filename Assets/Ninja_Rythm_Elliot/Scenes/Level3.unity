@@ -828,8 +828,8 @@ MonoBehaviour:
   marginOfError: 1
   inputDelayInMilliseconds: 2
   noteTime: 0.5
-  noteSpawnY: -40
-  noteTapY: -60
+  noteSpawnY: -25
+  noteTapY: -55
   midiFileName: Level3
 --- !u!1 &617712947
 GameObject:
@@ -7920,15 +7920,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3110122857068579685, guid: 13b4139bcf9f10f4b9df7d5dbcfe0c3e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -130.84601
       objectReference: {fileID: 0}
     - target: {fileID: 3110122857068579685, guid: 13b4139bcf9f10f4b9df7d5dbcfe0c3e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -24.444
       objectReference: {fileID: 0}
     - target: {fileID: 3110122857068579685, guid: 13b4139bcf9f10f4b9df7d5dbcfe0c3e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 3171551166438220159, guid: 13b4139bcf9f10f4b9df7d5dbcfe0c3e, type: 3}
       propertyPath: m_RootOrder
@@ -20028,7 +20028,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d1f21137488968d45bb8f4256009c3e6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 68e24442591e2a9429b92a19ade547ec, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

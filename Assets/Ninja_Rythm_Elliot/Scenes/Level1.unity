@@ -704,6 +704,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &471603816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 471603817}
+  - component: {fileID: 471603818}
+  m_Layer: 0
+  m_Name: Lane 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &471603817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471603816}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.46, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 538545402}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &471603818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471603816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19201ff50d4239d4eb8c5d9c86b2cd6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noteRestriction: 2
+  input: 276
+  notePrefab: {fileID: 5424263990013353251, guid: 01aeb3c5b55d8354282165a46b207904, type: 3}
+  timeStamps: []
 --- !u!1 &538545401
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +784,7 @@ Transform:
   - {fileID: 975988629}
   - {fileID: 1841974676}
   - {fileID: 1793930994}
+  - {fileID: 471603817}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -824,6 +873,7 @@ MonoBehaviour:
   - {fileID: 975988628}
   - {fileID: 1841974675}
   - {fileID: 1793930993}
+  - {fileID: 471603818}
   songDelayInSeconds: 0
   marginOfError: 1
   inputDelayInMilliseconds: 2
@@ -14527,7 +14577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19201ff50d4239d4eb8c5d9c86b2cd6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 2
+  noteRestriction: 7
   input: 273
   notePrefab: {fileID: 5424263990013353251, guid: 01aeb3c5b55d8354282165a46b207904, type: 3}
   timeStamps: []
