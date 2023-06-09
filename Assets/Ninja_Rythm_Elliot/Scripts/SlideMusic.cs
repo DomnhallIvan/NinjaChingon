@@ -36,7 +36,7 @@ public class SlideMusic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(audioSlider.value);
+       // Debug.Log(audioSlider.value);
         audioSlider.value = GetComponent<AudioSource>().time;
         Finish();
     }
