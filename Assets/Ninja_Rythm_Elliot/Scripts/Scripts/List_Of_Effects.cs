@@ -14,7 +14,7 @@ public class List_Of_Effects : MonoBehaviour
     //public Image CoboImage;
     //public  List<string> TextoCombo= new List<string>();
     //public Text Convo;
-    public TMP_Text[] TextoCombo;
+    public Text[] TextoCombo;
 
     public ParticleSystem[] Effects;
 
