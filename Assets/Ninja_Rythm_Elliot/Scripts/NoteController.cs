@@ -62,7 +62,7 @@ public class NoteController : MonoBehaviour
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(1.5f, 1.5f, 1.5f), 0.5f).setDelay(.5f).setEase(LeanTweenType.easeOutElastic);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(1f, 1f, 1f), 0.5f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(0f, 0f, 0f), 1f).setDelay(1f).setEase(LeanTweenType.easeInOutCubic);
-               // Efectos.Effects[1].Play();
+                Efectos.Effects[1].Play();
 
                 myAnimationController.Attack();
                 myAnimationControllerBoss.Material();
@@ -86,7 +86,7 @@ public class NoteController : MonoBehaviour
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(1f, 1f, 1f), 0.5f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(0f, 0f, 0f), 0.7f).setDelay(1f).setEase(LeanTweenType.easeInOutCubic);
                 noteScoreManager.ChangeExScore(50);
-               // Efectos.Effects[2].Play();
+                Efectos.Effects[2].Play();
 
                 myAnimationController.Attack();
                 myAnimationControllerBoss.Material();
@@ -110,7 +110,7 @@ public class NoteController : MonoBehaviour
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(1f, 1f, 1f), 0.5f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(0f, 0f, 0f), 0.7f).setDelay(1f).setEase(LeanTweenType.easeInOutCubic);
                 noteScoreManager.ChangeExScore(25);
-                //Efectos.Effects[3].Play();
+                Efectos.Effects[3].Play();
                 Destroy(gameObject);
                 Invoke(nameof(FalseAgain), 0.1f);
             }
