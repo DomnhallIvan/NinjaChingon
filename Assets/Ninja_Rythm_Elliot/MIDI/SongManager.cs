@@ -95,8 +95,7 @@ public class SongManager : MonoBehaviour
         return (double)Instance.audioSource.timeSamples / Instance.audioSource.clip.frequency;
     }
 
-
-
+   
     void Update()
     {
 

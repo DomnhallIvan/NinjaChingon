@@ -6,6 +6,12 @@ public class Note : MonoBehaviour
 {
     double timeInstantiated;
     public float assignedTime;
+
+   /* private void OnEnable()
+    {
+        Invoke("Disable", 4f);
+    }*/
+
     void Start()
     {
         timeInstantiated = SongManager.GetAudioSourceTime();
@@ -28,4 +34,14 @@ public class Note : MonoBehaviour
             GetComponent<MeshRenderer>().enabled = true;
         }
     }
+
+    /*void Disable()
+    {
+        gameObject.SetActive(false);
+    }
+
+    private void OnDisable()
+    {
+        CancelInvoke();
+    }*/
 }
