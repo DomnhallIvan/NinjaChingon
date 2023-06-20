@@ -36,6 +36,7 @@ public class NoteController : MonoBehaviour
                 hasCollideEX = true;
                 Efectos.DeluxyCombo(1);
                 Efectos.NoteStatus.text = "Excelent";
+                Efectos.NoteStatus.color = new Color(0, 219, 255);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(1.5f, 1.5f, 1.5f), 0.5f).setDelay(.5f).setEase(LeanTweenType.easeOutElastic);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(1f, 1f, 1f), 0.5f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(0f, 0f, 0f), 1f).setDelay(1f).setEase(LeanTweenType.easeInOutCubic);
@@ -59,6 +60,7 @@ public class NoteController : MonoBehaviour
                 Efectos.DeluxyCombo(1);
                 noteScoreManager.ChangeExScore(100);
                 Efectos.NoteStatus.text = "Good";
+                Efectos.NoteStatus.color = new Color(255, 0, 228);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(1.5f, 1.5f, 1.5f), 0.5f).setDelay(.5f).setEase(LeanTweenType.easeOutElastic);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(1f, 1f, 1f), 0.5f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(0f, 0f, 0f), 1f).setDelay(1f).setEase(LeanTweenType.easeInOutCubic);
@@ -82,6 +84,7 @@ public class NoteController : MonoBehaviour
                 hasCollideEX = true;
                 Efectos.DeluxyCombo(1);
                 Efectos.NoteStatus.text = "Meh";
+                Efectos.NoteStatus.color = Color.yellow;
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(1.5f, 1.5f, 1.5f), 0.5f).setDelay(.5f).setEase(LeanTweenType.easeOutElastic);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(1f, 1f, 1f), 0.5f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(0f, 0f, 0f), 0.7f).setDelay(1f).setEase(LeanTweenType.easeInOutCubic);
@@ -106,6 +109,7 @@ public class NoteController : MonoBehaviour
                 hasCollideEX = true;
                 Efectos.DeluxyCombo(1);
                 Efectos.NoteStatus.text = "Bruh";
+                Efectos.NoteStatus.color = Color.red;
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(1.5f, 1.5f, 1.5f), 0.5f).setDelay(.5f).setEase(LeanTweenType.easeOutElastic);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(1f, 1f, 1f), 0.5f).setDelay(.5f).setEase(LeanTweenType.easeInOutCubic);
                 LeanTween.scale(Efectos.NoteStatus.gameObject, new Vector3(0f, 0f, 0f), 0.7f).setDelay(1f).setEase(LeanTweenType.easeInOutCubic);
