@@ -41,7 +41,7 @@ Material:
     - _limite_lineas: 0.8
     - _lines: 19.47
     - _smooth: 0
-    - _speed: 0.5
+    - _speed: -0.5
     m_Colors:
     - _color_abajo: {r: 0, g: 3.795937, b: 60.418774, a: 0}
     - _color_arriba: {r: 0.004013729, g: 0, b: 1.4142135, a: 0}
