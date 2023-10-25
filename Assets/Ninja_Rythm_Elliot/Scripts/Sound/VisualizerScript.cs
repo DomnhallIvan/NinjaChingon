@@ -16,9 +16,10 @@ public class VisualizerScript : MonoBehaviour
     public int visualizerSimples = 64;
 
     public VisualizerObjectScript[] visualizerObjects;
-    AudioSource audioSource;
 
     public Color[] colorGroups; // Array para almacenar los colores por grupos
+
+    public AudioSource audioSource; // Usar el mismo AudioSource
 
     // Use this for initialization
     void Start()
@@ -28,7 +29,7 @@ public class VisualizerScript : MonoBehaviour
         if (!audioClip)
             return;
 
-        audioSource = new GameObject("_AudioSource").AddComponent<AudioSource>();
+        //audioSource = gameObject.AddComponent<AudioSource>(); // Usar el AudioSource del objeto actual
         audioSource.loop = loop;
         audioSource.clip = audioClip;
         audioSource.Play();
@@ -37,10 +38,14 @@ public class VisualizerScript : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (audioSource == null)
+            return;
+
         // Ajustar el volumen del audio
         audioSource.volume = volume;
 
-        float[] spectrumData = audioSource.GetSpectrumData(visualizerSimples, 0, FFTWindow.Rectangular);
+        float[] spectrumData = new float[visualizerSimples];
+        audioSource.GetSpectrumData(spectrumData, 0, FFTWindow.Rectangular);
 
         for (int i = 0; i < visualizerObjects.Length; i++)
         {

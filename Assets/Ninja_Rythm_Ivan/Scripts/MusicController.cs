@@ -5,13 +5,15 @@ using UnityEngine.UI;
 
 public class MusicController : MonoBehaviour
 {
-    public AudioSource music;
     public Slider volume;
     public Slider fxVolume;
+
+    private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         volume.value = PlayerPrefs.GetFloat("MusicVolume");
         fxVolume.value = PlayerPrefs.GetFloat("FxVolume");
     }
@@ -19,17 +21,21 @@ public class MusicController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        music.volume = volume.value;
+       
+        if (audioSource != null)
+        {
+            audioSource.volume = volume.value;
+        }
     }
 
     public void VolumePrefs()
     {
-        PlayerPrefs.SetFloat("MusicVolume", music.volume);
+        PlayerPrefs.SetFloat("MusicVolume", volume.value);
         PlayerPrefs.SetFloat("FxVolume", fxVolume.value);
     }
 
     void PlayMusic()
     {
-
+       
     }
 }
