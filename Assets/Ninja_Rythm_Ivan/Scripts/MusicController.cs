@@ -8,6 +8,7 @@ public class MusicController : MonoBehaviour
     public Slider volume;
     public Slider fxVolume;
 
+    public AudioSource effectSource;
     private AudioSource audioSource;
 
     // Start is called before the first frame update
@@ -25,6 +26,11 @@ public class MusicController : MonoBehaviour
         if (audioSource != null)
         {
             audioSource.volume = volume.value;
+        }
+
+        if(effectSource!=null)
+        {
+            effectSource.volume = fxVolume.value;
         }
     }
 

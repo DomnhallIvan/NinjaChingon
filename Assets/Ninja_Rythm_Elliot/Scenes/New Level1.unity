@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.01919716, g: 0.057217255, b: 0.15543067, a: 1}
+  m_IndirectSpecularColor: {r: 0.019198176, g: 0.05721861, b: 0.15543206, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3561,6 +3561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 748351699}
+  - component: {fileID: 748351701}
   - component: {fileID: 748351700}
   m_Layer: 0
   m_Name: Explosion
@@ -3680,6 +3681,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &748351701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748351698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c501f2181c2614ca325f15205df0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 748351700}
 --- !u!1001 &751752008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9346,6 +9360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 916843790}
+  - component: {fileID: 916843792}
   - component: {fileID: 916843791}
   m_Layer: 0
   m_Name: Miss
@@ -9465,6 +9480,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &916843792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916843789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c501f2181c2614ca325f15205df0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 916843791}
 --- !u!1 &922120054
 GameObject:
   m_ObjectHideFlags: 0
@@ -10205,6 +10233,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1075115718}
+  - component: {fileID: 1075115719}
   - component: {fileID: 1075115717}
   m_Layer: 0
   m_Name: Buttons
@@ -10324,6 +10353,19 @@ Transform:
   m_Father: {fileID: 369135536}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1075115719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075115716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c501f2181c2614ca325f15205df0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 1075115717}
 --- !u!1 &1082320533
 GameObject:
   m_ObjectHideFlags: 0
@@ -16667,6 +16709,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1424415835}
+  - component: {fileID: 1424415837}
   - component: {fileID: 1424415836}
   m_Layer: 0
   m_Name: Kick
@@ -16786,6 +16829,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1424415837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424415834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c501f2181c2614ca325f15205df0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 1424415836}
 --- !u!4 &1425919691 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1286170434223864738, guid: 9895cfef6ab118c4e88ae115889c5023, type: 3}
@@ -23401,6 +23457,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1986609180}
+  - component: {fileID: 1986609182}
   - component: {fileID: 1986609179}
   - component: {fileID: 1986609181}
   m_Layer: 0
@@ -23542,6 +23599,19 @@ MonoBehaviour:
   canvasWinner: {fileID: 1524316583}
   canvasScore: {fileID: 1835052517}
   Duration: 178
+--- !u!114 &1986609182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986609178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa4a15af17685bf43ad3cc10f981e7b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: {fileID: 1986609179}
 --- !u!1 &1995452855
 GameObject:
   m_ObjectHideFlags: 0

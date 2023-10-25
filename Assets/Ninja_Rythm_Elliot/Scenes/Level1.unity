@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.014417352, g: 0.02487802, b: 0.024517775, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1574,8 +1574,8 @@ PrefabInstance:
     - target: {fileID: 1286170434223864740, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       propertyPath: InitialModule.startLifetime.minScalar
       value: 0.15
-    - target: {fileID: 1286170434593147824, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       objectReference: {fileID: 0}
+    - target: {fileID: 1286170434593147824, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
@@ -1586,13 +1586,13 @@ PrefabInstance:
     - target: {fileID: 1286170434593147824, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       propertyPath: InitialModule.startLifetime.minScalar
       value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 1286170434593147837, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
-      objectReference: {fileID: 0}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-      propertyPath: m_LocalScale.x
     - target: {fileID: 1286170434593147838, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
+      propertyPath: 
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1286170434593147838, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
@@ -1603,86 +1603,82 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5
       objectReference: {fileID: 0}
-      propertyPath: m_IsActive
     - target: {fileID: 1286170434664997916, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
+      propertyPath: 
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1286170434664997917, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       propertyPath: m_LocalScale.x
-      objectReference: {fileID: 0}
       value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1286170434664997917, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1286170434664997917, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
-      objectReference: {fileID: 0}
-      value: 0.5
       propertyPath: m_LocalScale.z
-    - target: {fileID: 1286170434664997919, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
+      value: 0.5
       objectReference: {fileID: 0}
-      value: 0
+    - target: {fileID: 1286170434664997919, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1286170434664997919, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
       value: 2
-      propertyPath: InitialModule.startLifetime.scalar
-    - target: {fileID: 1329608420087903006, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       objectReference: {fileID: 0}
+    - target: {fileID: 1329608420087903006, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1329608420087903006, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       propertyPath: m_LocalScale.y
-      objectReference: {fileID: 0}
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1329608420087903006, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       propertyPath: m_LocalScale.z
-      objectReference: {fileID: 0}
       value: 0.5
-      propertyPath: m_LocalScale.x
-    - target: {fileID: 3202358208769238939, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
-      value: 0.5
-    - target: {fileID: 3202358208769238939, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       objectReference: {fileID: 0}
+    - target: {fileID: 3202358208769238939, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
+      propertyPath: 
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202358208769238939, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       propertyPath: m_LocalScale.y
-      objectReference: {fileID: 0}
       value: 0.5
       objectReference: {fileID: 0}
-      value: 0.1
-    - target: {fileID: 8459828896223938495, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
-      propertyPath: InitialModule.startLifetime.minScalar
+    - target: {fileID: 3202358208769238939, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 
       objectReference: {fileID: 0}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8459828896223938495, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
-      value: 0
-      propertyPath: playOnAwake
-    - target: {fileID: 8459828896223938495, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
-      objectReference: {fileID: 0}
-      propertyPath: InitialModule.startLifetime.minScalar
-      value: 0.15
-    - target: {fileID: 5138672940308087485, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
-      objectReference: {fileID: 0}
-      value: 0.25
-    - target: {fileID: 5138672940308087485, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 0
-      objectReference: {fileID: 0}
-      propertyPath: playOnAwake
-    - target: {fileID: 5138672940308087485, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
-      objectReference: {fileID: 0}
-      value: 1
-      propertyPath: m_IsActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 3774236060194193471, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
-      value: 1
     - target: {fileID: 3207438849271989521, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
       propertyPath: m_IsActive
-      objectReference: {fileID: 0}
       value: 0.5
-    - target: {fileID: 3202358208769238939, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
-      propertyPath: m_LocalScale.z
+      objectReference: {fileID: 0}
+    - target: {fileID: 3774236060194193471, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
+      propertyPath: 
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5138672940308087485, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
+      propertyPath: 
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5138672940308087485, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5138672940308087485, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8459828896223938495, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8459828896223938495, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
+      propertyPath: InitialModule.startLifetime.minScalar
+      value: 0.15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa20fd76f8efc084ebe78cf5c43c0444, type: 3}
 --- !u!1 &705507993
@@ -19799,6 +19795,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1986609180}
+  - component: {fileID: 1986609182}
   - component: {fileID: 1986609179}
   - component: {fileID: 1986609181}
   m_Layer: 0
@@ -19940,6 +19937,19 @@ MonoBehaviour:
   canvasWinner: {fileID: 1524316583}
   canvasScore: {fileID: 1835052517}
   Duration: 178
+--- !u!114 &1986609182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986609178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa4a15af17685bf43ad3cc10f981e7b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: {fileID: 1986609179}
 --- !u!1 &2108326748
 GameObject:
   m_ObjectHideFlags: 0
