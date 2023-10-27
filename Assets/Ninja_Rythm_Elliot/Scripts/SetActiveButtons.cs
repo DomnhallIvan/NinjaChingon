@@ -4,26 +4,27 @@ using UnityEngine;
 
 public class SetActiveButtons : MonoBehaviour
 {
-    public GameObject Panel;
-    public GameObject Buttons;
-    public GameObject Start;
-    public GameObject Name;
-    public GameObject Creditspanel;
-    public void ActiveB()
+    public GameObject StartPanel;
+    public GameObject CreditsPanel;
+    public GameObject SettingsPanel;
+
+    public void ActiveCredits()
     {
-        Buttons.SetActive(false);
-        Start.SetActive(false);
-        Name.SetActive(false);
-        Panel.SetActive(true);
-        Creditspanel.SetActive(true);
+        StartPanel.SetActive(false);
+        CreditsPanel.SetActive(true);
     }
-    public void DesactiveB()
+    public void Desactive()
     {
-        Buttons.SetActive(true);
-        Start.SetActive(true);
-        Name.SetActive(true);
-        Panel.SetActive(false);
-        Creditspanel?.SetActive(false);
+       CreditsPanel.SetActive(false );
+        SettingsPanel.SetActive(false);
+        StartPanel.SetActive(true);
     }
+
+    public void ActiveOptions()
+    {
+        StartPanel.SetActive(false);
+        SettingsPanel.SetActive(true);
+    }
+
 
 }
