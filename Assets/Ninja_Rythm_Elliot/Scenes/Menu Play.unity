@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -341,6 +341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   music: {fileID: 73162261}
+  panelBrillo: {fileID: 2024873972}
 --- !u!1 &181026172
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,7 +629,7 @@ RectTransform:
   - {fileID: 1740902265}
   - {fileID: 365179230}
   m_Father: {fileID: 1614205860}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1135,8 +1136,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -356}
-  m_SizeDelta: {x: 771.24, y: 181.628}
+  m_AnchoredPosition: {x: 107, y: -432}
+  m_SizeDelta: {x: 856.01, y: 207.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &417075210
 MonoBehaviour:
@@ -1158,7 +1159,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e3e4253eff5d85f449234378ec656a15, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d973358b03e774c49871b8aa3e989f72, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1259,7 +1260,7 @@ RectTransform:
   m_GameObject: {fileID: 558726670}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.89393, y: 0.89393, z: 0.89393}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1294305360}
@@ -1292,8 +1293,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tutorial Song - Max Ibarra
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2460e0320fbd1d144b6ef7fc5baf7e9e, type: 2}
-  m_sharedMaterial: {fileID: -4814616203989816379, guid: 2460e0320fbd1d144b6ef7fc5baf7e9e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e001dbc2ec21ec142bd2b1721bfbff63, type: 2}
+  m_sharedMaterial: {fileID: -7581168740505742787, guid: e001dbc2ec21ec142bd2b1721bfbff63, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1317,14 +1318,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 48.8
+  m_fontSizeBase: 48.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1726,7 +1727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &897682868
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2159,6 +2160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   music: {fileID: 1079803088}
+  panelBrillo: {fileID: 0}
 --- !u!1 &1085716815
 GameObject:
   m_ObjectHideFlags: 0
@@ -2329,8 +2331,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -120.00008}
-  m_SizeDelta: {x: 771.24, y: 150}
+  m_AnchoredPosition: {x: 107, y: -215.00006}
+  m_SizeDelta: {x: 856.01, y: 207.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1099046666
 MonoBehaviour:
@@ -2352,7 +2354,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5bdf05f86abd5a04cb79753f559087de, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f8f1009f68263a342b67636d994e7fd6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2568,6 +2570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   music: {fileID: 1120673436}
+  panelBrillo: {fileID: 0}
 --- !u!1 &1206064524
 GameObject:
   m_ObjectHideFlags: 0
@@ -2605,8 +2608,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 120.000015}
-  m_SizeDelta: {x: 771.24, y: 150}
+  m_AnchoredPosition: {x: 107, y: 9}
+  m_SizeDelta: {x: 856.01, y: 207.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1206064526
 MonoBehaviour:
@@ -2628,7 +2631,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e00ad0578f57674b9dde5bd77c9b5a4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b3ddc8b17e018d94aa46fd68b4468943, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2844,6 +2847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   music: {fileID: 1222877515}
+  panelBrillo: {fileID: 0}
 --- !u!1 &1294305359
 GameObject:
   m_ObjectHideFlags: 0
@@ -2881,8 +2885,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 337.00006}
-  m_SizeDelta: {x: 771.24, y: 150}
+  m_AnchoredPosition: {x: 107, y: 242.00006}
+  m_SizeDelta: {x: 856.01, y: 207.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1294305361
 MonoBehaviour:
@@ -2904,7 +2908,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2c834bc826f83e14f8f22e39c5ceb266, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3828f10ffdc6afb4296ac65dc8e5926a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3005,7 +3009,7 @@ RectTransform:
   m_GameObject: {fileID: 1346599779}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.87623, y: 0.87623, z: 0.87623}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 417075209}
@@ -3038,8 +3042,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Digital Inferno: Blazing Electro-Metal Symphony - Max Ibarra'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2460e0320fbd1d144b6ef7fc5baf7e9e, type: 2}
-  m_sharedMaterial: {fileID: -4814616203989816379, guid: 2460e0320fbd1d144b6ef7fc5baf7e9e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e001dbc2ec21ec142bd2b1721bfbff63, type: 2}
+  m_sharedMaterial: {fileID: -7581168740505742787, guid: e001dbc2ec21ec142bd2b1721bfbff63, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3063,14 +3067,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 39.8
+  m_fontSizeBase: 39.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -3216,7 +3220,7 @@ RectTransform:
   m_GameObject: {fileID: 1435047247}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.89391, y: 0.89391, z: 0.89391}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1206064525}
@@ -3249,8 +3253,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PACIFIC - CHILL VIBES - MAX IBARRA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2460e0320fbd1d144b6ef7fc5baf7e9e, type: 2}
-  m_sharedMaterial: {fileID: -4814616203989816379, guid: 2460e0320fbd1d144b6ef7fc5baf7e9e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e001dbc2ec21ec142bd2b1721bfbff63, type: 2}
+  m_sharedMaterial: {fileID: -7581168740505742787, guid: e001dbc2ec21ec142bd2b1721bfbff63, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3274,14 +3278,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 45.9
+  m_fontSizeBase: 45.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -3599,6 +3603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   music: {fileID: 1521231286}
+  panelBrillo: {fileID: 0}
 --- !u!1 &1614205856
 GameObject:
   m_ObjectHideFlags: 0
@@ -3696,9 +3701,9 @@ RectTransform:
   - {fileID: 2121402521901024211}
   - {fileID: 897682868}
   - {fileID: 1798641444}
-  - {fileID: 181026173}
   - {fileID: 294469939}
   - {fileID: 901584328}
+  - {fileID: 2024873974}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3966,7 +3971,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8db7b32b445d50c44822e68ff3eccb13, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aa26a36d46989e549b235fbffb35dca8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4011,7 +4016,7 @@ RectTransform:
   m_GameObject: {fileID: 1700169065}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.93020797, y: 0.93020797, z: 0.93020797}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1099046665}
@@ -4044,8 +4049,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Don\xB4t stop rythm - electro - max ibarra"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2460e0320fbd1d144b6ef7fc5baf7e9e, type: 2}
-  m_sharedMaterial: {fileID: -4814616203989816379, guid: 2460e0320fbd1d144b6ef7fc5baf7e9e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e001dbc2ec21ec142bd2b1721bfbff63, type: 2}
+  m_sharedMaterial: {fileID: -7581168740505742787, guid: e001dbc2ec21ec142bd2b1721bfbff63, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4069,14 +4074,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 38.1
+  m_fontSizeBase: 38.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -4456,6 +4461,82 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!1 &2024873971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2024873974}
+  - component: {fileID: 2024873973}
+  - component: {fileID: 2024873972}
+  m_Layer: 5
+  m_Name: Brightness
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2024873972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024873971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.4392157}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2024873973
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024873971}
+  m_CullTransparentMesh: 1
+--- !u!224 &2024873974
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024873971}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1614205860}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2121402521901024210
 GameObject:
   m_ObjectHideFlags: 0
