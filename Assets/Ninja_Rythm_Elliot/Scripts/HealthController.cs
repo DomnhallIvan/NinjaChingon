@@ -10,12 +10,14 @@ public class HealthController : MonoBehaviour
     public float healthDecreaseSpeed = 1.0f; // Velocidad de disminución de la salud
     public GameObject canvasLose;
     public GameObject canvasScore;
+    public GameObject canvasPause;
     public GameObject songmanager;
     public AudioSource _audio;
 
     public Slider healthSlider;
 
     private int targetHealth; // Salud a la que se está moviendo gradualmente
+
 
     // Start is called before the first frame update
     void Start()
@@ -58,7 +60,7 @@ public class HealthController : MonoBehaviour
         }
     }
 
-    public void Continue()
+    public void ContinueADS()
     {
         targetHealth = playerHealth = 3;
         _audio.Play();
@@ -67,10 +69,29 @@ public class HealthController : MonoBehaviour
         songmanager.SetActive(true);
     }
 
+    public void Continue()
+    {
+        _audio.Play();
+        canvasPause.SetActive(false);
+        canvasScore.SetActive(true);
+        songmanager.SetActive(true);
+    }
+
+    public void PauseGame()
+    {
+        _audio.Pause();
+        canvasPause.SetActive(true);
+        canvasScore.SetActive(false);
+        songmanager.SetActive(false);
+    }
+
     public void Retry()
     {
         Time.timeScale = 1f;
         string currentSceneName = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene(currentSceneName);
     }
+
+
+
 }

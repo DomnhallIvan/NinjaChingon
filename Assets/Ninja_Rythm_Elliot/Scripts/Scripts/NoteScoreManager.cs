@@ -14,7 +14,7 @@ public class NoteScoreManager : MonoBehaviour
     {
         PlayerScore = 0;
        
-        ScoreText.text = "Score " + PlayerScore;
+        ScoreText.text = "" + PlayerScore;
        
     }
 
@@ -23,7 +23,7 @@ public class NoteScoreManager : MonoBehaviour
     {
         PlayerScore = PlayerScore + Puntos;
         
-        ScoreText.text = "Score " + PlayerScore;
+        ScoreText.text = "" + PlayerScore;
         
     }
 }
