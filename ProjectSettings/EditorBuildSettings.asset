@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Ninja_Rythm_Elliot/Scenes/MENU.unity
     guid: c01ad95cf58c09649af6edcdc4b37aaf
-  - enabled: 0
+  - enabled: 1
     path: Assets/Ninja_Rythm_Elliot/Scenes/Menu Play.unity
     guid: 37b4f43f5f0d6e04192e5df5243dfc9f
   - enabled: 0

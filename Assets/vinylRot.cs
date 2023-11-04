@@ -6,21 +6,23 @@ using UnityEngine.UI;
 public class vinylRot : MonoBehaviour
 {
     public Button miBoton;
-    public float tiempoGiro = 3f;
-    public float velocidadRotacion = 180f; 
+    public float tiempoGiro = 10f;
+    public float velocidadRotacion = -100f;
     private bool girando = false;
+    public AudioSource audioSource;
 
     void Start()
     {
         miBoton.onClick.AddListener(Girar);
+       
     }
 
-    void Girar()
+    public void Girar()
     {
         if (!girando)
         {
             girando = true;
-            //miBoton.interactable = false;
+            audioSource.Pause(); 
             StartCoroutine(GirarBoton());
         }
     }
@@ -33,10 +35,11 @@ public class vinylRot : MonoBehaviour
             miBoton.transform.Rotate(0f, 0f, velocidadRotacion * Time.deltaTime);
             yield return null;
         }
-        //miBoton.interactable = true;
         girando = false;
+        audioSource.UnPause(); 
     }
 }
+
 
 
 
