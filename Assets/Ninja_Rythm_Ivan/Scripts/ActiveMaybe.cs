@@ -8,7 +8,10 @@ public class ActiveMaybe : MonoBehaviour
     public GameObject[] ObjetosIng;
     public GameObject[] ObjetosEsp;
 
-
+    private void Start()
+    {
+        UpdateObject(GameLanguage.gl.currentLang);
+    }
     // Update is called once per frame
     void Update()
     {

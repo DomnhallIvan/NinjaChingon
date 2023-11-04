@@ -3865,7 +3865,7 @@ GameObject:
   - component: {fileID: 696384894}
   - component: {fileID: 696384893}
   m_Layer: 5
-  m_Name: PauseEn
+  m_Name: PauseEs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17617,12 +17617,12 @@ MonoBehaviour:
   ObjetosIng:
   - {fileID: 564921316}
   - {fileID: 1870364449}
-  - {fileID: 696384891}
+  - {fileID: 1384784101}
   - {fileID: 1642763954}
   ObjetosEsp:
   - {fileID: 1501229137}
   - {fileID: 1235597880}
-  - {fileID: 1384784101}
+  - {fileID: 696384891}
   - {fileID: 1582276299}
 --- !u!1 &1240324365
 GameObject:
@@ -18603,7 +18603,7 @@ GameObject:
   - component: {fileID: 1384784104}
   - component: {fileID: 1384784103}
   m_Layer: 5
-  m_Name: PauseEs
+  m_Name: PauseEn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
