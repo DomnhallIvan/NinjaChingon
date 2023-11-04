@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7306939934117518105}
   - component: {fileID: 7306939934117518106}
-  - component: {fileID: 9148277685999967787}
   m_Layer: 0
   m_Name: GameLanguage
   m_TagString: Untagged
@@ -46,15 +45,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentLanguage: en
---- !u!114 &9148277685999967787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7306939934117518104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d41f5a71175c28349911820bd2afabc2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

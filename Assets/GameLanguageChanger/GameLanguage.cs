@@ -7,6 +7,7 @@ public class GameLanguage : MonoBehaviour
 	
 	public static GameLanguage gl;
 	public string currentLanguage = "en";
+	public bool currentLang = true;
 	
 	//Dictionary<string, string> langID; 
 	Dictionary<string, string> langES;
@@ -14,6 +15,7 @@ public class GameLanguage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentLang = (PlayerPrefs.GetInt("Name") != 0);
 
         gl = this;
 		
@@ -28,6 +30,7 @@ public class GameLanguage : MonoBehaviour
 		Debug.Log("Current language: " + currentLanguage);
 		
 		WordDefine();
+		
     }
 
     // Update is called once per frame
@@ -40,6 +43,19 @@ public class GameLanguage : MonoBehaviour
     {
         PlayerPrefs.SetString("GameLanguage", langCode);
 		currentLanguage = langCode;
+    }
+
+	public void SetActive()
+	{
+        currentLang = true;
+        PlayerPrefs.SetInt("Idioma", (currentLang ? 1 : 0));
+		
+	}
+
+	public void SetFalse()
+	{
+		currentLang = false;
+        PlayerPrefs.SetInt("Idioma", (currentLang ? 1 : 0));
     }
 	
 	public void ResetLanguage()
@@ -88,26 +104,27 @@ public class GameLanguage : MonoBehaviour
             {"Language", "Lenguaje"},
             {"Indonesian", "Indonesio"},
 			{"Brightness","Brillo" },
-			{"Coding","Programación" },
-			{"Credits","Créditos" },
+			{"Coding","Programacion" },
+			{"Credits","Creditos" },
 			{"Artists","Artistas" },
 			{"Music & SFX","Música & SFX" },
 			{"Poster Artist","Artista del Poster" },
-			{"Project for school purposes","Proyecto para propósitos escolares" },
-			{"Stage Select","Elige tu canción" },
+			{"Project for school purposes","Proyecto para propositos escolares" },
+			{"Stage Select","Elige tu cancion" },
             {"Preview","Elige tu canción" },
             {"Tutorial Song - Max Ibarra","Canción de Tutorial-Max Ibarra"},
 			{"YOU Winner","TU GANAS" },
             {"Boss Defeated","Jefe Terminado" },
             {"End of the Practice","Practica terminado" },
             {"Continue","Continuar" },
-            {"Retry","Intentar de nuevo" },
+            {"Retry","De nuevo" },
 			{"You Lose","Tu pierdes" },
-			{"Main Menu","Menú Principal" },
+			{"Main Menu","Menu Principal" },
 			{"Continue Ads","Continuar con Ads" },
-			{"Retry Level","Volver a intentar" },
+			{"Retry Level","De nuevo" },
+			{"High Score","Mayor Puntuacion" },
 			{"Score","Puntuaje" },
-            {"Spanish", "Español"},
+            {"Spanish", "Espanol"},
             {"Reset", "Resetear"},
             {"Reset Language Preference", "Resetear Idioma"},
             {"Choose Language", "Elije tu idioma"},
