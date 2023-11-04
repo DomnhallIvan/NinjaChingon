@@ -42,7 +42,7 @@ public class VisualizerScript : MonoBehaviour
             return;
 
         // Ajustar el volumen del audio
-        audioSource.volume = volume;
+        audioSource.volume = PlayerPrefs.GetFloat("MusicVolume");
 
         float[] spectrumData = new float[visualizerSimples];
         audioSource.GetSpectrumData(spectrumData, 0, FFTWindow.Rectangular);
