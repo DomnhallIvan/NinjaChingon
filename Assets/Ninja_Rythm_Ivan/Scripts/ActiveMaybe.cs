@@ -15,7 +15,7 @@ public class ActiveMaybe : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameLanguage.gl.currentLang)
+        if(GameLanguage.gl.currentLang==true)
         {
             UpdateObject(true);
         }
@@ -28,15 +28,17 @@ public class ActiveMaybe : MonoBehaviour
 
     void UpdateObject(bool currentLang)
     {
-        if (currentLang)
+        if (currentLang==true)
         {
             foreach (GameObject obj in ObjetosIng)
             {
                 obj.SetActive(true);
+                //Debug.Log(obj);
             }
 
             foreach (GameObject obj in ObjetosEsp)
             {
+                //Debug.Log(obj);
                 obj.SetActive(false);
             }
         }

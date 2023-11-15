@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.019197702, g: 0.05721817, b: 0.15543228, a: 1}
+  m_IndirectSpecularColor: {r: 0.019198176, g: 0.05721861, b: 0.15543206, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3870,7 +3870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &696384892
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4526,6 +4526,10 @@ PrefabInstance:
     - target: {fileID: 1803479412511528179, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
       propertyPath: m_Name
       value: Score Image En
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803479412511528179, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2979392035882240093, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
       propertyPath: m_IsActive
@@ -19654,7 +19658,7 @@ RectTransform:
   m_GameObject: {fileID: 1501229137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1346097773}
@@ -19662,7 +19666,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 41, y: -66}
+  m_AnchoredPosition: {x: 41, y: -72}
   m_SizeDelta: {x: 512, y: 153}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1501229139

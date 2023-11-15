@@ -15,7 +15,9 @@ public class GameLanguage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentLang = (PlayerPrefs.GetInt("Name") != 0);
+		currentLang = PlayerPrefs.HasKey("Idioma") ? PlayerPrefs.GetInt("Idioma") != 0 : true;
+
+		//currentLang = (PlayerPrefs.GetInt("Name") != 0);
 
         gl = this;
 		
@@ -49,13 +51,12 @@ public class GameLanguage : MonoBehaviour
 	{
         currentLang = true;
         PlayerPrefs.SetInt("Idioma", (currentLang ? 1 : 0));
-		
 	}
 
 	public void SetFalse()
 	{
 		currentLang = false;
-        PlayerPrefs.SetInt("Idioma", (currentLang ? 1 : 0));
+        PlayerPrefs.SetInt("Idioma", (currentLang ? 0 : 0));
     }
 	
 	public void ResetLanguage()
