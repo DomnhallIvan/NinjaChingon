@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -540,7 +540,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ad9bf2f6a69a0ea4bbfe916fd3661478, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5f3ee811d132e8841b5fed12cdbcf784, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3304,7 +3304,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &526395146
 Transform:
   m_ObjectHideFlags: 0
@@ -3675,7 +3675,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 544688372}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa4a15af17685bf43ad3cc10f981e7b3, type: 3}
   m_Name: 
@@ -4894,6 +4894,10 @@ PrefabInstance:
       propertyPath: volume
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 3505137144973382507, guid: 261bf204a0b916249bafd6e77c9eb80c, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f3ee811d132e8841b5fed12cdbcf784, type: 3}
     - target: {fileID: 3505137144973382507, guid: 261bf204a0b916249bafd6e77c9eb80c, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -7503,7 +7507,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427681735}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa4a15af17685bf43ad3cc10f981e7b3, type: 3}
   m_Name: 
@@ -8815,7 +8819,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787050411}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa4a15af17685bf43ad3cc10f981e7b3, type: 3}
   m_Name: 
@@ -8999,7 +9003,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801649412}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa4a15af17685bf43ad3cc10f981e7b3, type: 3}
   m_Name: 
