@@ -129,6 +129,7 @@ public class GameLanguage : MonoBehaviour
             {"Reset", "Resetear"},
             {"Reset Language Preference", "Resetear Idioma"},
             {"Choose Language", "Elije tu idioma"},
+			{"Loading","Cargando" }
         };
 
     }
