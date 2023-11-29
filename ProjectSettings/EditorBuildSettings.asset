@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Ninja_Rythm_Elliot/Scenes/MENU.unity
     guid: c01ad95cf58c09649af6edcdc4b37aaf
   - enabled: 0
@@ -23,10 +23,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Ninja_Rythm_Elliot/Scenes/Level3.unity
     guid: 95658518017d0884ea03606ec5b5f930
-  - enabled: 1
+  - enabled: 0
     path: Assets/Ninja_Rythm_Elliot/Scenes/New Level1.unity
     guid: 0d17687698a0c2146b746741accee226
-  - enabled: 1
+  - enabled: 0
     path: Assets/Ninja_Rythm_Elliot/Scenes/New Level3.unity
     guid: 37b49f06dea6e1947b5ac339e65eeb7f
+  - enabled: 1
+    path: Assets/Ninja_Rythm_Elliot/Scenes/AdmobADS.unity
+    guid: 0d5aa39ed15b80b48b31f08edc423234
   m_configObjects: {}
