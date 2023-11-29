@@ -15,6 +15,11 @@ public class MusicController : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+
+        volume.value = 1f;
+        fxVolume.value= PlayerPrefs.GetFloat("FxVolume", 1f);
+
+
         volume.value = PlayerPrefs.GetFloat("MusicVolume");
         fxVolume.value = PlayerPrefs.GetFloat("FxVolume");
     }
@@ -40,8 +45,4 @@ public class MusicController : MonoBehaviour
         PlayerPrefs.SetFloat("FxVolume", fxVolume.value);
     }
 
-    void PlayMusic()
-    {
-       
-    }
 }
