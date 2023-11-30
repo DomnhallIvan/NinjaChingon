@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ADS : MonoBehaviour
 {
+    public AdmobAdsScript admobAdsScript;
     public GameObject Image3;
     public GameObject Image2;
     public GameObject Image1;
@@ -18,6 +20,8 @@ public class ADS : MonoBehaviour
 
     public IEnumerator ADSTime()
     {
+        admobAdsScript.LoadRewardedAd();
+        admobAdsScript.ShowRewardedAd();
         Image3.SetActive(true);
         yield return new WaitForSeconds(1.5f);
         Image3.SetActive(false);
@@ -30,6 +34,14 @@ public class ADS : MonoBehaviour
         Group.SetActive(true);
         Image4.SetActive(true);
         HealthController.ContinueADS();
+    }
+
+
+    public void ADSIntersitial()
+    {
+        admobAdsScript.LoadInterstitialAd();
+        admobAdsScript.ShowInterstitialAd();
+        
     }
 
 }

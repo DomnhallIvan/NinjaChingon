@@ -3,19 +3,21 @@ using GoogleMobileAds.Api;
 using TMPro;
 using UnityEngine.UI;
 using System;
+using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class AdmobAdsScript : MonoBehaviour
 {
-    public TextMeshProUGUI totalCoinsTxt;
+   
 
     public string appId = "ca-app-pub-3940256099942544~3347511713";// "ca-app-pub-3940256099942544~3347511713";
 
 
 #if UNITY_ANDROID
-    string bannerId = "ca-app-pub-3940256099942544/6300978111";
+   // string bannerId = "ca-app-pub-3940256099942544/6300978111";
     string interId = "ca-app-pub-3940256099942544/1033173712";
     string rewardedId = "ca-app-pub-3940256099942544/5224354917";
-    string nativeId = "ca-app-pub-3940256099942544/2247696110";
+  //  string nativeId = "ca-app-pub-3940256099942544/2247696110";
 
 /*#elif UNITY_IPHONE
     string bannerId = "ca-app-pub-3940256099942544/2934735716";
@@ -25,12 +27,12 @@ public class AdmobAdsScript : MonoBehaviour
 
 #endif
 
-    BannerView bannerView;
+  //  BannerView bannerView;
     InterstitialAd interstitialAd;
     RewardedAd rewardedAd;
-    NativeAd nativeAd;
+  //  NativeAd nativeAd;
 
-
+   public HealthController healthController;
     private void Start()
     {
         //ShowCoins();
@@ -42,7 +44,7 @@ public class AdmobAdsScript : MonoBehaviour
         });
     }
 
-    #region Banner
+   /* #region Banner
 
     public void LoadBannerAd()
     {
@@ -124,7 +126,7 @@ public class AdmobAdsScript : MonoBehaviour
             bannerView = null;
         }
     }
-    #endregion
+    #endregion*/
 
     #region Interstitial
 
@@ -194,6 +196,8 @@ public class AdmobAdsScript : MonoBehaviour
         ad.OnAdFullScreenContentClosed += () =>
         {
             Debug.Log("Interstitial ad full screen content closed.");
+            SceneManager.LoadScene("Menu");
+
         };
         // Raised when the ad failed to open full screen content.
         ad.OnAdFullScreenContentFailed += (AdError error) =>
@@ -240,7 +244,7 @@ public class AdmobAdsScript : MonoBehaviour
             {
                 print("Give reward to player !!");
 
-                GrantCoins(100);
+              //  GrantCoins(100);
 
             });
         }
@@ -277,6 +281,7 @@ public class AdmobAdsScript : MonoBehaviour
         ad.OnAdFullScreenContentClosed += () =>
         {
             Debug.Log("Rewarded ad full screen content closed.");
+           // healthController.ContinueADS();
         };
         // Raised when the ad failed to open full screen content.
         ad.OnAdFullScreenContentFailed += (AdError error) =>
@@ -289,7 +294,7 @@ public class AdmobAdsScript : MonoBehaviour
     #endregion
 
 
-    #region Native
+   /* #region Native
 
     public Image img;
 
@@ -321,22 +326,21 @@ public class AdmobAdsScript : MonoBehaviour
         print("Native ad failed to load" + e.ToString());
 
     }
-    #endregion
+    #endregion*/
 
 
     #region extra 
 
+
+
+
     void GrantCoins(int coins)
     {
-        int crrCoins = PlayerPrefs.GetInt("totalCoins");
-        crrCoins += coins;
-        PlayerPrefs.SetInt("totalCoins", crrCoins);
 
-        ShowCoins();
     }
     void ShowCoins()
     {
-        totalCoinsTxt.text = PlayerPrefs.GetInt("totalCoins").ToString();
+       
     }
 
     #endregion
