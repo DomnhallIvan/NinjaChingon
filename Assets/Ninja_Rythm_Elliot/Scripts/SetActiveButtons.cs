@@ -16,10 +16,11 @@ public class SetActiveButtons : MonoBehaviour
     }
     public void Desactive()
     {
-       CreditsPanel.SetActive(false );
-        SettingsPanel.SetActive(false);
-        StartPanel.SetActive(true);
+    
+        CreditsPanel.SetActive(false );
+        SettingsPanel.SetActive(false);        
         SongsPanel.SetActive(false);
+        StartPanel.SetActive(true);
     }
 
     public void ActiveOptions()
