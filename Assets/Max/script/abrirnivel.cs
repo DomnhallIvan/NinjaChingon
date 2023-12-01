@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -9,9 +8,11 @@ public class abrirnivel : MonoBehaviour
     public GameObject LoadingScreen;
     public Image LoadingBarFill;
 
+    // Velocidad de llenado personalizada
+    public float fillSpeed = 0.5f;
+
     public void CargarNivel(int Nombreniv)
     {
-        //SceneManager.LoadScene(Nombreniv);
         StartCoroutine(LoadSceneAsync(Nombreniv));
     }
 
@@ -21,15 +22,26 @@ public class abrirnivel : MonoBehaviour
 
         LoadingScreen.SetActive(true);
 
-        while(!operation.isDone)
+        while (!operation.isDone)
         {
             float progressValue = Mathf.Clamp01(operation.progress / 0.9f);
 
-            LoadingBarFill.fillAmount = progressValue;
+            // Llenar la barra de carga hasta el 60%
+            if (progressValue < 0.6f)
+            {
+                LoadingBarFill.fillAmount = progressValue;
+            }
+
+            // Esperar hasta que la carga esté completa
+            else
+            {
+                // Llenar la barra de carga hasta el 100%
+                LoadingBarFill.fillAmount += fillSpeed * Time.deltaTime;
+            }
 
             yield return null;
         }
+
+        // Puedes agregar aquí cualquier otra lógica que desees realizar después de cargar la escena.
     }
-
-
 }

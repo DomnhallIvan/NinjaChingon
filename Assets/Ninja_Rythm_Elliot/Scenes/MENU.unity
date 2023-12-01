@@ -1469,6 +1469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LoadingScreen: {fileID: 7428092283849403220}
   LoadingBarFill: {fileID: 7428092283849403219}
+  fillSpeed: 0.5
 --- !u!4 &269719193
 Transform:
   m_ObjectHideFlags: 0
@@ -15167,6 +15168,10 @@ PrefabInstance:
     - target: {fileID: 670416323365132734, guid: 6af2eebf685294d4b815c61ffb70222c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 670416323365132735, guid: 6af2eebf685294d4b815c61ffb70222c, type: 3}
+      propertyPath: fillSpeed
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8202427363224611385, guid: 6af2eebf685294d4b815c61ffb70222c, type: 3}
       propertyPath: m_IsActive
