@@ -12,18 +12,18 @@ public class AdmobAdsScript : MonoBehaviour
 
     public string appId = "ca-app-pub-6335099338644298~3650297946";// Id de la app
 
+
+#if UNITY_ANDROID
+    // string bannerId = "ca-app-pub-3940256099942544/6300978111";
     string interId = "ca-app-pub-6335099338644298/2925788498";
     string rewardedId = "ca-app-pub-6335099338644298/8164359651";
-#if UNITY_ANDROID
-   // string bannerId = "ca-app-pub-3940256099942544/6300978111";
-  
-  //  string nativeId = "ca-app-pub-3940256099942544/2247696110";
+    //  string nativeId = "ca-app-pub-3940256099942544/2247696110";
 
-/*#elif UNITY_IPHONE
-    string bannerId = "ca-app-pub-3940256099942544/2934735716";
-    string interId = "ca-app-pub-3940256099942544/4411468910";
-    string rewardedId = "ca-app-pub-3940256099942544/1712485313";
-    string nativeId = "ca-app-pub-3940256099942544/3986624511";*/
+    /*#elif UNITY_IPHONE
+        string bannerId = "ca-app-pub-3940256099942544/2934735716";
+        string interId = "ca-app-pub-3940256099942544/4411468910";
+        string rewardedId = "ca-app-pub-3940256099942544/1712485313";
+        string nativeId = "ca-app-pub-3940256099942544/3986624511";*/
 
 #endif
 
