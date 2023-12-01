@@ -10,13 +10,13 @@ public class AdmobAdsScript : MonoBehaviour
 {
    
 
-    public string appId = "ca-app-pub-3940256099942544~3347511713";// "ca-app-pub-3940256099942544~3347511713";
+    public string appId = "ca-app-pub-6335099338644298~3650297946";// Id de la app
 
 
 #if UNITY_ANDROID
    // string bannerId = "ca-app-pub-3940256099942544/6300978111";
-    string interId = "ca-app-pub-3940256099942544/1033173712";
-    string rewardedId = "ca-app-pub-3940256099942544/5224354917";
+    string interId = "ca-app-pub-6335099338644298/2925788498";
+    string rewardedId = "ca-app-pub-6335099338644298/8164359651";
   //  string nativeId = "ca-app-pub-3940256099942544/2247696110";
 
 /*#elif UNITY_IPHONE
