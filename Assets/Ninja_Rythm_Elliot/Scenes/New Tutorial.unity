@@ -27045,7 +27045,7 @@ MonoBehaviour:
   Efectos: {fileID: 1240324366}
   canvasWinner: {fileID: 1372543659}
   canvasScore: {fileID: 1835052517}
-  Duration: 178
+  Duration: 77
 --- !u!114 &1986609182
 MonoBehaviour:
   m_ObjectHideFlags: 0

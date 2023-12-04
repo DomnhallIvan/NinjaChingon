@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.019197702, g: 0.05721817, b: 0.15543228, a: 1}
+  m_IndirectSpecularColor: {r: 0.01919716, g: 0.057217255, b: 0.15543067, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5423,7 +5423,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f4d5a12722eb92d45817d69dcfa11d75, type: 2}
+  - {fileID: 2100000, guid: 5a257da495ca9ef41876037b3755ee96, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12150,7 +12150,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a65ef05c8c4df564a85b68cfce56608c, type: 2}
+  - {fileID: 2100000, guid: 12159f5cbb21b354cad5da1573a4e255, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21656,8 +21656,8 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f4d5a12722eb92d45817d69dcfa11d75, type: 2}
-  - {fileID: 2100000, guid: f4d5a12722eb92d45817d69dcfa11d75, type: 2}
+  - {fileID: 2100000, guid: 7500c6aa528e2de45a281bd39bd66aba, type: 2}
+  - {fileID: 2100000, guid: 7500c6aa528e2de45a281bd39bd66aba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
