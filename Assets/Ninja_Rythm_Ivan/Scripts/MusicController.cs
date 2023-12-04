@@ -16,14 +16,19 @@ public class MusicController : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
 
-       // volume.value = 1f;
-       // fxVolume.value= PlayerPrefs.GetFloat("FxVolume", 1f);
+        // Iniciar en 50% si no hay valores almacenados en PlayerPrefs
+        if (!PlayerPrefs.HasKey("MusicVolume"))
+        {
+            PlayerPrefs.SetFloat("MusicVolume", 0.5f);
+        }
+        if (!PlayerPrefs.HasKey("FxVolume"))
+        {
+            PlayerPrefs.SetFloat("FxVolume", 0.5f);
+        }
 
-
-        volume.value = PlayerPrefs.GetFloat("MusicVolume",1f);
-        fxVolume.value = PlayerPrefs.GetFloat("FxVolume",1f);
+        volume.value = PlayerPrefs.GetFloat("MusicVolume", 0.5f);
+        fxVolume.value = PlayerPrefs.GetFloat("FxVolume", 0.5f);
     }
-
     // Update is called once per frame
     void Update()
     {
