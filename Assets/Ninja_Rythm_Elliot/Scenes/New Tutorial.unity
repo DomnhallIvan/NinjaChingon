@@ -27039,9 +27039,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSlider: {fileID: 1283306870}
   Explosion: {fileID: 748351700}
-  _timeanimationDie: 158
+  _timeanimationDie: 72
   _timeanimationExplosion: 175
-  _BossAnim: {fileID: 2401320189388788682}
+  _BossAnim: {fileID: 3453119833146793854}
   Efectos: {fileID: 1240324366}
   canvasWinner: {fileID: 1372543659}
   canvasScore: {fileID: 1835052517}
@@ -33395,7 +33395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee0f2fe1e3d1f44d8fc4ceb2a93eccc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AnimatorBoss: {fileID: 0}
+  m_AnimatorBoss: {fileID: 2534009130107246089}
 --- !u!4 &3477482476060012468
 Transform:
   m_ObjectHideFlags: 0

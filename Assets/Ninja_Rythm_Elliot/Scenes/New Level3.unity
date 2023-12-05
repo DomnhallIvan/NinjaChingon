@@ -20043,6 +20043,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3171551166438220159, guid: 13b4139bcf9f10f4b9df7d5dbcfe0c3e, type: 3}
   m_PrefabInstance: {fileID: 1376036701}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1376036703 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1744040074, guid: 13b4139bcf9f10f4b9df7d5dbcfe0c3e, type: 3}
+  m_PrefabInstance: {fileID: 1376036701}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee0f2fe1e3d1f44d8fc4ceb2a93eccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1384784101
 GameObject:
   m_ObjectHideFlags: 0
@@ -28524,13 +28535,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSlider: {fileID: 1283306870}
   Explosion: {fileID: 748351700}
-  _timeanimationDie: 158
-  _timeanimationExplosion: 175
-  _BossAnim: {fileID: 2401320189388788682}
+  _timeanimationDie: 105
+  _timeanimationExplosion: 110
+  _BossAnim: {fileID: 1376036703}
   Efectos: {fileID: 1240324366}
   canvasWinner: {fileID: 1372543659}
   canvasScore: {fileID: 1835052517}
-  Duration: 178
+  Duration: 111
 --- !u!114 &1986609182
 MonoBehaviour:
   m_ObjectHideFlags: 0

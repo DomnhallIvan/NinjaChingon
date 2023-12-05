@@ -27155,13 +27155,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSlider: {fileID: 1283306870}
   Explosion: {fileID: 748351700}
-  _timeanimationDie: 158
-  _timeanimationExplosion: 175
-  _BossAnim: {fileID: 2401320189388788682}
+  _timeanimationDie: 156
+  _timeanimationExplosion: 158
+  _BossAnim: {fileID: 1666670906}
   Efectos: {fileID: 1240324366}
   canvasWinner: {fileID: 1372543659}
   canvasScore: {fileID: 1835052517}
-  Duration: 178
+  Duration: 160
 --- !u!114 &1986609182
 MonoBehaviour:
   m_ObjectHideFlags: 0
