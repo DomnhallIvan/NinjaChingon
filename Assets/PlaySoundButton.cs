@@ -15,7 +15,7 @@ public class PlaySoundButton : MonoBehaviour
 
     public void PLaySoundMiss()
     {
-        SoundKick.Play();
+        SoundMiss.Play();
     }
 
 }

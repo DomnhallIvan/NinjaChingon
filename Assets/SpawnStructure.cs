@@ -20,11 +20,14 @@ public class SpawnStructure : MonoBehaviour
             GameObject selectedPrefab = prefabs[randomPrefabIndex];
 
             // Instanciar el prefab seleccionado
-            Instantiate(selectedPrefab, spawnPosition.position, Quaternion.identity);
+            GameObject spawnedObject = Instantiate(selectedPrefab, spawnPosition.position, Quaternion.identity);
+
+            // Destruir el objeto después de 4 segundos
+            Destroy(spawnedObject, 4.0f);
 
             timer = 0;
         }
     }
-
-
 }
+
+

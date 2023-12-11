@@ -6,9 +6,11 @@ public class Scroll : MonoBehaviour
 {
     public bool inverse;
     public bool reverse;
-    // Scroll the main texture based on time
 
-    float scrollSpeed = 0.5f;
+    // Velocidades de desplazamiento independientes
+    public float inverseScrollSpeed = 0.5f;
+    public float reverseScrollSpeed = 0.5f;
+
     Renderer rend;
 
     void Start()
@@ -20,14 +22,13 @@ public class Scroll : MonoBehaviour
     {
         if (inverse)
         {
-            float offset = Time.time * scrollSpeed;
-            rend.material.mainTextureOffset = new Vector2(0, - offset);
+            float offset = Time.time * inverseScrollSpeed;
+            rend.material.mainTextureOffset = new Vector2(0, -offset);
         }
-        else if (reverse) 
+        else if (reverse)
         {
-            float offset = Time.time * scrollSpeed;
+            float offset = Time.time * reverseScrollSpeed;
             rend.material.mainTextureOffset = new Vector2(0, offset);
         }
-        
     }
 }
