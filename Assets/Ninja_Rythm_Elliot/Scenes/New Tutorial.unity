@@ -4701,6 +4701,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2979392035328685229, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: lvNum
+      value: 
+      objectReference: {fileID: 1835052518}
     - target: {fileID: 2979392035882240093, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -21495,6 +21499,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5594548507477090202, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
   m_PrefabInstance: {fileID: 751752008}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1835052518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835052517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c7294b20e9818439a0f32b18fbda45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelNumber: 0
 --- !u!1 &1841974674
 GameObject:
   m_ObjectHideFlags: 0

@@ -467,6 +467,8 @@ GameObject:
   - component: {fileID: 76117537}
   - component: {fileID: 76117539}
   - component: {fileID: 76117538}
+  - component: {fileID: 76117540}
+  - component: {fileID: 76117541}
   m_Layer: 5
   m_Name: panelcancion2
   m_TagString: Untagged
@@ -538,6 +540,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76117536}
   m_CullTransparentMesh: 1
+--- !u!114 &76117540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76117536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d153fc8e11584ac46950ff0f72ef81ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highscoretext: {fileID: 1919381883}
+  lvNum: {fileID: 76117541}
+--- !u!114 &76117541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76117536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c7294b20e9818439a0f32b18fbda45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelNumber: 1
 --- !u!1 &78193636
 GameObject:
   m_ObjectHideFlags: 0
@@ -5266,6 +5295,8 @@ GameObject:
   - component: {fileID: 733921985}
   - component: {fileID: 733921987}
   - component: {fileID: 733921986}
+  - component: {fileID: 733921988}
+  - component: {fileID: 733921989}
   m_Layer: 5
   m_Name: panelcancion3
   m_TagString: Untagged
@@ -5337,6 +5368,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733921984}
   m_CullTransparentMesh: 1
+--- !u!114 &733921988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733921984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d153fc8e11584ac46950ff0f72ef81ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highscoretext: {fileID: 1125048316}
+  lvNum: {fileID: 733921989}
+--- !u!114 &733921989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733921984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c7294b20e9818439a0f32b18fbda45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelNumber: 2
 --- !u!1 &741299891
 GameObject:
   m_ObjectHideFlags: 0
@@ -7385,6 +7443,8 @@ GameObject:
   - component: {fileID: 985463119}
   - component: {fileID: 985463121}
   - component: {fileID: 985463120}
+  - component: {fileID: 985463122}
+  - component: {fileID: 985463123}
   m_Layer: 5
   m_Name: panelcancion1
   m_TagString: Untagged
@@ -7456,6 +7516,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985463118}
   m_CullTransparentMesh: 1
+--- !u!114 &985463122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985463118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d153fc8e11584ac46950ff0f72ef81ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highscoretext: {fileID: 1328488756}
+  lvNum: {fileID: 985463123}
+--- !u!114 &985463123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985463118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c7294b20e9818439a0f32b18fbda45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelNumber: 0
 --- !u!1 &1011268905
 GameObject:
   m_ObjectHideFlags: 0
@@ -8927,6 +9014,8 @@ GameObject:
   - component: {fileID: 1177702959}
   - component: {fileID: 1177702961}
   - component: {fileID: 1177702960}
+  - component: {fileID: 1177702962}
+  - component: {fileID: 1177702963}
   m_Layer: 5
   m_Name: panelcancion4
   m_TagString: Untagged
@@ -8998,6 +9087,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1177702958}
   m_CullTransparentMesh: 1
+--- !u!114 &1177702962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177702958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d153fc8e11584ac46950ff0f72ef81ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highscoretext: {fileID: 1867946209}
+  lvNum: {fileID: 1177702963}
+--- !u!114 &1177702963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177702958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c7294b20e9818439a0f32b18fbda45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelNumber: 3
 --- !u!1 &1178053583
 GameObject:
   m_ObjectHideFlags: 0
