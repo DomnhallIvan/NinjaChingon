@@ -8,6 +8,7 @@ public class NoteController : MonoBehaviour
     public PlayerAnim myAnimationController;
     public BossAnim myAnimationControllerBoss;
     public PlaySoundButton _playS;
+    [SerializeField] private LevelNumber lvNum;
 
     private bool hasCollideEX = false;
 
@@ -18,6 +19,8 @@ public class NoteController : MonoBehaviour
         myAnimationController = GameObject.FindObjectOfType<PlayerAnim>();
         myAnimationControllerBoss = GameObject.FindObjectOfType<BossAnim>();
         _playS = GameObject.FindObjectOfType<PlaySoundButton>();
+        lvNum = GameObject.FindObjectOfType<LevelNumber>();
+
 
     }
 

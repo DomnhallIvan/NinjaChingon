@@ -37,7 +37,7 @@ public class SlideMusic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(audioSlider.value);
+        //Debug.Log(audioSlider.value);
         audioSlider.value = GetComponent<AudioSource>().time;
         Finish();
     }
@@ -47,7 +47,7 @@ public class SlideMusic : MonoBehaviour
 
         if (audioSlider.value >= _timeanimationDie)
         {
-            Debug.Log("Reproduzco anim");
+            //Debug.Log("Reproduzco anim");
 
             _BossAnim.Die();
         }
@@ -56,7 +56,7 @@ public class SlideMusic : MonoBehaviour
         {
             //IsFinished = true;
 
-            Debug.Log("Estoy en el if vacio");
+            //Debug.Log("Estoy en el if vacio");
 
             //Explosion.PlayOneShot(1);
             //IsFinished = false;
@@ -65,7 +65,7 @@ public class SlideMusic : MonoBehaviour
         }
         else
         {
-            Debug.Log("Leggue al final");
+            //Debug.Log("Leggue al final");
             if (!IsFinished)
             {
                 Efectos.Effects[4].Play();
@@ -79,7 +79,7 @@ public class SlideMusic : MonoBehaviour
 
         if (audioSlider.value >= Duration)
         {
-            Debug.Log("Activo canvas");
+            //Debug.Log("Activo canvas");
 
             canvasWinner.SetActive(true);
             canvasScore.SetActive(false);
@@ -87,5 +87,6 @@ public class SlideMusic : MonoBehaviour
 
 
     }
+
 
 }

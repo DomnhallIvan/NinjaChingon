@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class SetActiveButtons : MonoBehaviour
 {
     public GameObject StartPanel;
@@ -35,5 +36,6 @@ public class SetActiveButtons : MonoBehaviour
         SongsPanel.SetActive(true);
     }
 
+   
 
 }
