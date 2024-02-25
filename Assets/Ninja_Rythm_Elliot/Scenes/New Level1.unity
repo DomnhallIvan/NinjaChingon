@@ -4510,6 +4510,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2979392035328685229, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: lvNum
+      value: 
+      objectReference: {fileID: 1835052518}
+    - target: {fileID: 2979392035328685229, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
       propertyPath: levelNumber
       value: 1
       objectReference: {fileID: 0}
@@ -4693,7 +4697,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScoreCanvasShido
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9038944216690082398, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9038944216690082398, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
 --- !u!1 &802649467
 GameObject:
@@ -32391,6 +32400,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 670416323365132734, guid: 6af2eebf685294d4b815c61ffb70222c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8202427363224611385, guid: 6af2eebf685294d4b815c61ffb70222c, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

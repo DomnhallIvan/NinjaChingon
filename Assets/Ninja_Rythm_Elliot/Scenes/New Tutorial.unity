@@ -4701,6 +4701,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2617350595420007995, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
+      propertyPath: m_text
+      value: 350
+      objectReference: {fileID: 0}
     - target: {fileID: 2979392035328685229, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
       propertyPath: lvNum
       value: 
@@ -4885,7 +4889,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScoreCanvasShido
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9038944216690082398, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 39f5fd48b0d22b8429a7853f1a9f2c45, type: 3}
 --- !u!1 &802649467
 GameObject:
