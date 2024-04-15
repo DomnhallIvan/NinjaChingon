@@ -253,7 +253,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: D:/Users/Elliot/Documents/Llave Ninja Rythm/user.keystore
+  AndroidKeystoreName: C:/Users/Omen/Documents/Llave Ninja Rythm/user.keystore
   AndroidKeyaliasName: tbobagames
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
